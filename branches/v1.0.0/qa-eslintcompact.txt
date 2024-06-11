@@ -1,0 +1,24 @@
+SMART_WHO_INT_DAK_TB
+=========================================
+
+Generic: line 0, col 0, Error - The link 'TB DAK_decision-support logic.xlsx' for "TB DAK_decision-support logic.xlsx" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'smart.who.int/dak-tb/v0.9.9/TB DAK_decision-support logic.xlsx' for "TB DAK_decision-support logic.xlsx" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'TB DAK_core data dictionary.xlsx' for "TB DAK_core data dictionary.xlsx" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'smart.who.int/dak-tb/v0.9.9/TB DAK_core data dictionary.xlsx' for "TB DAK_core data dictionary.xlsx" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'smart.who.int/dak/tb/dictionary' for "Link to core data dictionary" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'smart.who.int/dak/tb/decision-logic' for "Link to decision support logic" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'smart.who.int/dak/tb/scheduling-logic' for "Link to scheduling logic" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'smart.who.int/dak/tb/indicators' for "Link to indicators table" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'smart.who.int/dak/tb/system-requirements' for "Link to functional and non functional requirements" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'TB DAK_indicators.xlsx' for "TB DAK_indicators.xlsx" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'smart.who.int/dak-tb/v0.9.9/TB DAK_indicators.xlsx' for "TB DAK_indicators.xlsx" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.dak.tb.json: line 1, col 112, Error - Canonical URLs must be absolute URLs if they are not fragment references (SMARTImplementationGuide) (INVALID)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.dak.tb.json: line 1, col 17655, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1) (STRUCTURE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.dak.tb.json: line 1, col 17656, Warning - Profile reference 'SMARTImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles (STRUCTURE)
+
+err = 2, warn = 5, info = 0
+IG Publisher Version: 1.6.6
