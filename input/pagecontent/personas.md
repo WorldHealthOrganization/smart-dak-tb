@@ -1,7 +1,5 @@
 A persona is a depiction of a relevant stakeholder, or end user, of the system.
-
 Although the specific roles and demographic profiles of the personas will vary depending on the setting, generic personas are based on WHO core competencies and credentials of different health worker personas.
-
 
 ### Targeted generic personas
 
