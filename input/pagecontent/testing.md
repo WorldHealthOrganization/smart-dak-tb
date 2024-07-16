@@ -15,9 +15,7 @@ Test data will be added in [Test Data](test-data.html) page.
 
 The testing artifacts in this implementation guide are not intended to be used to determine formal conformance, nor are they intended to be authoritative or comprehensive.
 
-
 ### Testing platforms
-
 
 These files allow a quick setup of working servers, for testing of the specification in a known configuration.
 
@@ -33,7 +31,6 @@ How to setup the server:
 3. From the same folder, run `docker-compose up -d`  
 4. Navigate to http://localhost:<static_server_port> e.g. <a href="http://localhost:8087">http://localhost:8087</a>  
 5. Follow the instructions there to setup and run the extractions
-
 
 #### Scheduling and Decision Logic, Measures
 CQFRuler
