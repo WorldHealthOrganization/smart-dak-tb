@@ -1,0 +1,23 @@
+{
+  "packages" : [
+    {
+      "path" : "dak-tb/package-list.json",
+      "package-id" : "smart.who.int.dak-tb",
+      "title" : "SMART DAK TB",
+      "canonical" : "http://smart.who.int/dak-tb",
+      "category" : "base",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-dak-tb",
+      "version-count" : 3,
+      "latest" : {
+        "version" : "1.0.1",
+        "date" : "2024-07-17",
+        "path" : "http://smart.who.int/dak-tb/v1.0.1"
+      },
+      "milestone" : {
+        "version" : "1.0.1",
+        "date" : "2024-07-17",
+        "path" : "http://smart.who.int/dak-tb/v1.0.1"
+      }
+    }
+  ]
+}
