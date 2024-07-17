@@ -1,17 +1,9 @@
-This page includes a depiction of end-users and related stakeholders as introduced in the WHO Digital Adaptation Kit for <mark>[insert health domain here]</mark>(link forthcoming).
-
-The specific roles and demographic profile of the personas will vary depending on the setting, the generic personas are based on the WHO core competencies and credentials of different health worker personas.
-
+A persona is a depiction of a relevant stakeholder, or end user, of the system.
+Although the specific roles and demographic profiles of the personas will vary depending on the setting, generic personas are based on WHO core competencies and credentials of different health worker personas.
 
 ### Targeted generic personas
 
-The targeted personas for the <mark>[insert health domain here]</mark> Digital Adaptation Kit are
-health professionals operating in care settings that are able to provide
-the required essential interventions for <mark>[insert health domain here]</mark> delivery. Their
-key competences of are defined in the following table.
+In the case of TB, physicians, nurses and clinical officers are the primary personas for the digital client health record and decision-support system. In the health systems surveyed for this DAK, the common combination of service providers was a physician along with a nurse. The key competences of physicians, nurses and clinical officers are defined by WHO in the Table 2 of the DAK.
 
-**Descriptions of key generic personas**
-
-{% include fragment-actors.liquid %}
-
-<br/>
+### Related personas
+In addition to the targeted personas detailed in Table 2, there may be value in exploring other cadres and personas within the context of TB services, such as laboratory technicians or community health workers. However, these were not identified as the central personas for the data and decision-support content detailed in this DAK. Additional related personas are listed in the Table 3 of the DAK.
