@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.015.A"
 * activity = " Validate the client details"
 * actor[+] = Reference(healthworkerordataentryclerkormedicalofficereceptionist)
-* capabilityString = "To be able to attach an identifier (e.g. QR code, barcode, fingerprint, photo) to the client's record based on national standard-based consent"
-* benefitString = "I have additional ways of identifying client"
+* capabilityMarkdown = "To be able to attach an identifier (e.g. QR code, barcode, fingerprint, photo) to the client's record based on national standard-based consent"
+* benefitMarkdown = "I have additional ways of identifying client"
 * classification[+] = FXREQBusinessProcesses#A
 

@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.007.A"
 * activity = " Create a new client record"
 * actor[+] = Reference(healthworkerordataentryclerkormedicalofficereceptionist)
-* capabilityString = "To be able to enter identification information"
-* benefitString = "I can enter new client information"
+* capabilityMarkdown = "To be able to enter identification information"
+* benefitMarkdown = "I can enter new client information"
 * classification[+] = FXREQBusinessProcesses#A
 

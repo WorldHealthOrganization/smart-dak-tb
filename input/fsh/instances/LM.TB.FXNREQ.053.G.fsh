@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.053.G"
 * activity = " Analyse and interpret the reports"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "To view a range of standardized visualizations (e.g. charts, tables, maps)"
-* benefitString = "I am able to use data collected at the facility for service delivery and informing programmatic actions with the aim of improving the quality of care for clients with TB"
+* capabilityMarkdown = "To view a range of standardized visualizations (e.g. charts, tables, maps)"
+* benefitMarkdown = "I am able to use data collected at the facility for service delivery and informing programmatic actions with the aim of improving the quality of care for clients with TB"
 * classification[+] = FXREQBusinessProcesses#G
 

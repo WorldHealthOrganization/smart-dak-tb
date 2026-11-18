@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.026.C"
 * activity = " Carry out clinical examination"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "The system to use the data entered for a client to generate statistics, graphs, pop-ups (on demand or ad hoc)"
-* benefitString = "I can take better clinical decisions"
+* capabilityMarkdown = "The system to use the data entered for a client to generate statistics, graphs, pop-ups (on demand or ad hoc)"
+* benefitMarkdown = "I can take better clinical decisions"
 * classification[+] = FXREQBusinessProcesses#C
 

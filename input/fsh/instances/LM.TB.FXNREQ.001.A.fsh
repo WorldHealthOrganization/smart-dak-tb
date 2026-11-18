@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.001.A"
 * activity = " Search for the client record"
 * actor[+] = Reference(healthworkerordataentryclerkormedicalofficereceptionist)
-* capabilityString = "To search to see whether client is already in the system (using at least two identifiers)"
-* benefitString = "I can check whether this is a new or existing client"
+* capabilityMarkdown = "To search to see whether client is already in the system (using at least two identifiers)"
+* benefitMarkdown = "I can check whether this is a new or existing client"
 * classification[+] = FXREQBusinessProcesses#A
 

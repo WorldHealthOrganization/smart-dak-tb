@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.027.C"
 * activity = " Assess medical history and risk factors"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "To be able to route the consultation via different health workers and save in the system the information already entered to the consultation even if the consultation is not yet complete, enabling other health workers to see the information already entered and to be able to add or edit information as it becomes available"
-* benefitString = "I do not have to start a new consultation for every health worker that the client is involved with"
+* capabilityMarkdown = "To be able to route the consultation via different health workers and save in the system the information already entered to the consultation even if the consultation is not yet complete, enabling other health workers to see the information already entered and to be able to add or edit information as it becomes available"
+* benefitMarkdown = "I do not have to start a new consultation for every health worker that the client is involved with"
 * classification[+] = FXREQBusinessProcesses#C
 

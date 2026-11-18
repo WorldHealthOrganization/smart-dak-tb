@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.028.C"
 * activity = "C4 Assess history of prior TB treatment"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "To be able to check client's medical history "
-* benefitString = "I can use this information for investigations or treatment recommendations"
+* capabilityMarkdown = "To be able to check client's medical history "
+* benefitMarkdown = "I can use this information for investigations or treatment recommendations"
 * classification[+] = FXREQBusinessProcesses#C
 

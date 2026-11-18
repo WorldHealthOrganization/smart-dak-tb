@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.049.F"
 * activity = " Provide information to the receiving facility"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "To share the client’s health records with the referral facility "
-* benefitString = "They can provide the care my client needs"
+* capabilityMarkdown = "To share the client’s health records with the referral facility "
+* benefitMarkdown = "They can provide the care my client needs"
 * classification[+] = FXREQBusinessProcesses#F
 
