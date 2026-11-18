@@ -4,6 +4,7 @@ name: DakTb
 title: SMART DAK TB
 description: TB DAK
 status: draft # draft | active | retired | unknown
+experimental: false
 version: 1.0.2
 date: 2024-07-17
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
