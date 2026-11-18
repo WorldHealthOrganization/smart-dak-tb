@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Provide role-based access to the system: users of the system get access on a need-to-know and need-to-use basis"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Securityauthentication
 * description = """
 *Category*: Security – authentication
 Provide role-based access to the system: users of the system get access on a need-to-know and need-to-use basis

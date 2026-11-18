@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Exchange data with other approved systems"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsinteroperability
 * description = """
 *Category*: System requirements – interoperability
 Exchange data with other approved systems

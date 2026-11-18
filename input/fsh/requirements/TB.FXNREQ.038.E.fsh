@@ -8,7 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthinformationofficer)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#E
 * extension[userstory].extension[capability].valueString = "The system to prompt the health worker to get informed consent from the client before proceeding with the TPT evaluation"
 * extension[userstory].extension[benefit].valueString = "I can ensure that client rights are protected"
 * description = """

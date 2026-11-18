@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Generate IDs that are unique across different installations or sites"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsgeneral
 * description = """
 *Category*: System requirements – general
 Generate IDs that are unique across different installations or sites

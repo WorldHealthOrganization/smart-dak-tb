@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Allow cascading user management and assignment of roles"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Securityusermanagement
 * description = """
 *Category*: Security – user management
 Allow cascading user management and assignment of roles

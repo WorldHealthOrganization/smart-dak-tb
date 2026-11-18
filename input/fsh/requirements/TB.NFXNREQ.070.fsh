@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Allow for data exchange and efficient synchronization across multiple facilities and points of service when the Internet is available, even when it is intermittent and slow"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementshardwareandconnectivity
 * description = """
 *Category*: System requirements – hardware and connectivity
 Allow for data exchange and efficient synchronization across multiple facilities and points of service when the Internet is available, even when it is intermittent and slow

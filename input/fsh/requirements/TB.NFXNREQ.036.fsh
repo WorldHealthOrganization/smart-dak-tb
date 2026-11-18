@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Enable deployment in an environment subject to power loss"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsgeneral
 * description = """
 *Category*: System requirements – general
 Enable deployment in an environment subject to power loss

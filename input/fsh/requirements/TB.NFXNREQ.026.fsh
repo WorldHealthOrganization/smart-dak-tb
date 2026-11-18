@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Provide role-based access"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Securityusermanagement
 * description = """
 *Category*: Security – user management
 Provide role-based access

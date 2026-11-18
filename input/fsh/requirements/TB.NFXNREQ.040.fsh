@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Be designed to be flexible enough to accommodate necessary changes in the future"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsgeneral
 * description = """
 *Category*: System requirements – general
 Be designed to be flexible enough to accommodate necessary changes in the future

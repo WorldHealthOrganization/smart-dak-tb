@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Log system logins and logouts"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Securityaudittrailandlogs
 * description = """
 *Category*: Security – audit trail and logs
 Log system logins and logouts

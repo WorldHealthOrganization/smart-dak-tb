@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Allow for offline and online functionality"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsgeneral
 * description = """
 *Category*: System requirements – general
 Allow for offline and online functionality

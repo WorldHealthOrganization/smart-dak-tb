@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Log access to data summaries, reports, analysis and visualization features"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Securityaudittrailandlogs
 * description = """
 *Category*: Security – audit trail and logs
 Log access to data summaries, reports, analysis and visualization features

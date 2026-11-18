@@ -8,7 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerordataentryclerkormedicalofficereceptionist)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
 * extension[userstory].extension[capability].valueString = "The system to indicate mandatory fields that must be filled out for the registration to be valid"
 * extension[userstory].extension[benefit].valueString = "I can ensure all necessary information has been completed"
 * description = """

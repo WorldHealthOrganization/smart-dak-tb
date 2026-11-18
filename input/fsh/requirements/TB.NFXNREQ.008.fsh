@@ -9,7 +9,6 @@ one computer to another by using data encryption and private networks across pub
 one computer to another by using data encryption and private networks across public networks"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Securityconfidentiality
 * description = """
 *Category*: Security – confidentiality
 Provide secure data transmission methods to prevent others from seeing data sent from 

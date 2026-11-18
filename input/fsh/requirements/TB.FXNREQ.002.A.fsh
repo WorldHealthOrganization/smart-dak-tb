@@ -8,7 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerordataentryclerkormedicalofficereceptionist)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
 * extension[userstory].extension[capability].valueString = "The system to be able to work offline "
 * extension[userstory].extension[benefit].valueString = "I can carry on the TB care service provision regardless of an Internet connection. Once the system goes back online, the data are synchronized with the central system"
 * description = """

@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Accept data from multiple input methods including paper and geocoding (GPS)"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsinteroperability
 * description = """
 *Category*: System requirements – interoperability
 Accept data from multiple input methods including paper and geocoding (GPS)
