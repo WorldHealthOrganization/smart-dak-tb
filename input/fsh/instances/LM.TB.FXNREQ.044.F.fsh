@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.044.F"
 * activity = " Stabilize the client and give pre-referral treatment"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "To be able to bypass the standard flow at any point if danger signs are present or emergency care is needed; urgent cases should be flagged and seen promptly"
-* benefitString = "The client can be referred, if needed"
+* capabilityMarkdown = "To be able to bypass the standard flow at any point if danger signs are present or emergency care is needed; urgent cases should be flagged and seen promptly"
+* benefitMarkdown = "The client can be referred, if needed"
 * classification[+] = FXREQBusinessProcesses#F
 

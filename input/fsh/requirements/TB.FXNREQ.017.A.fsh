@@ -8,7 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerordataentryclerkormedicalofficereceptionist)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
 * extension[userstory].extension[capability].valueString = "If this is a returning contact, to add the information to their previous contact"
 * extension[userstory].extension[benefit].valueString = "I can link the information across different contacts"
 * description = """

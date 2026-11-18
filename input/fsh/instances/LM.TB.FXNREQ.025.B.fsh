@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.025.B"
 * activity = " Perform the TB screening"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "To be able to send referral letters via appropriate digital tools (e.g. email, digital health portal)"
-* benefitString = "I can speed up the referral process and check-in at the accommodating health-care facility"
+* capabilityMarkdown = "To be able to send referral letters via appropriate digital tools (e.g. email, digital health portal)"
+* benefitMarkdown = "I can speed up the referral process and check-in at the accommodating health-care facility"
 * classification[+] = FXREQBusinessProcesses#B
 

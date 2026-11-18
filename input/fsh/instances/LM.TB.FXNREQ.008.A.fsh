@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.008.A"
 * activity = " Create a new client record"
 * actor[+] = Reference(healthworkerordataentryclerkormedicalofficereceptionist)
-* capabilityString = "The system to indicate mandatory fields that must be filled out for the registration to be valid"
-* benefitString = "I can ensure all necessary information has been completed"
+* capabilityMarkdown = "The system to indicate mandatory fields that must be filled out for the registration to be valid"
+* benefitMarkdown = "I can ensure all necessary information has been completed"
 * classification[+] = FXREQBusinessProcesses#A
 

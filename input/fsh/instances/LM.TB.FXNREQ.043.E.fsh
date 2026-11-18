@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.043.E"
 * activity = " Schedule the follow-up visit"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "To be able to indicate if the client agrees to receive notifications and their preferred communication channel (including sending reminders for the next follow-up visit)"
-* benefitString = "I can send communications via the client's preferred communication channel"
+* capabilityMarkdown = "To be able to indicate if the client agrees to receive notifications and their preferred communication channel (including sending reminders for the next follow-up visit)"
+* benefitMarkdown = "I can send communications via the client's preferred communication channel"
 * classification[+] = FXREQBusinessProcesses#E
 

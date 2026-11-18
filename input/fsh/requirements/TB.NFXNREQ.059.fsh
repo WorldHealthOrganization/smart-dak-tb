@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Adjust display to fit small screens (e.g. mobile phones)"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsusability
 * description = """
 *Category*: System requirements – usability
 Adjust display to fit small screens (e.g. mobile phones)

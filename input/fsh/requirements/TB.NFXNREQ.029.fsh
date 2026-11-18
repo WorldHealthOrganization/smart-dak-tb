@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Allow user to change their own password"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Securityusermanagement
 * description = """
 *Category*: Security – user management
 Allow user to change their own password

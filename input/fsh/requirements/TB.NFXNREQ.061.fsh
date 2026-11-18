@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Configure business rules in line with guidelines and standard operating procedures"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsconfiguration
 * description = """
 *Category*: System requirements – configuration
 Configure business rules in line with guidelines and standard operating procedures

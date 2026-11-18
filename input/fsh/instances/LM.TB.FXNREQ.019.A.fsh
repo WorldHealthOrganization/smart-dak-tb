@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.019.A"
 * activity = " Check in the client"
 * actor[+] = Reference(healthworkerordataentryclerkormedicalofficereceptionist)
-* capabilityString = "Provide a list of scheduled contacts to allow clients that are on TB preventive treatment or TB treatment who are lost to follow-up to be traced"
-* benefitString = "I can track and follow up clients requiring TB care services"
+* capabilityMarkdown = "Provide a list of scheduled contacts to allow clients that are on TB preventive treatment or TB treatment who are lost to follow-up to be traced"
+* benefitMarkdown = "I can track and follow up clients requiring TB care services"
 * classification[+] = FXREQBusinessProcesses#A
 

@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Notify a user if their account is locked due to wrong password attempts"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Securityauthentication
 * description = """
 *Category*: Security – authentication
 Notify a user if their account is locked due to wrong password attempts

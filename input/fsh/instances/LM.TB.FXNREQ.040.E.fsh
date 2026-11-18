@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.040.E"
 * activity = " Determine TPT eligibility"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "To have questions that guide me in TPT eligibility assessment"
-* benefitString = "I can better evaluate client TPT eligibility"
+* capabilityMarkdown = "To have questions that guide me in TPT eligibility assessment"
+* benefitMarkdown = "I can better evaluate client TPT eligibility"
 * classification[+] = FXREQBusinessProcesses#E
 

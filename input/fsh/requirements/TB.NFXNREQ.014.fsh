@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Lock a user out after a specified number of wrong password attempts"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Securityauthentication
 * description = """
 *Category*: Security – authentication
 Lock a user out after a specified number of wrong password attempts

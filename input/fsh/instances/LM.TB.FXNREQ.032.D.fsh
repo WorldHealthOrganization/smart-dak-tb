@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.032.D"
 * activity = " Initiate the treatment and discuss adherence"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "The system to automatically calculate the expected TB treatment completion date"
-* benefitString = "I do not have to calculate this myself"
+* capabilityMarkdown = "The system to automatically calculate the expected TB treatment completion date"
+* benefitMarkdown = "I do not have to calculate this myself"
 * classification[+] = FXREQBusinessProcesses#D
 

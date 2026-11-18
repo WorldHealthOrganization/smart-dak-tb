@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Provide encrypted communication between components"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Securityconfidentiality
 * description = """
 *Category*: Security – confidentiality
 Provide encrypted communication between components

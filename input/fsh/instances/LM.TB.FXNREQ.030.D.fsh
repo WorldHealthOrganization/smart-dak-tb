@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.030.D"
 * activity = " Determine the regimen designed to treat rifampicin-resistant TB"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "The system to propose TB treatment regimens based on predefined criteria and on the information available in the system"
-* benefitString = "It helps me selecting the appropriate treatment regimen for the client"
+* capabilityMarkdown = "The system to propose TB treatment regimens based on predefined criteria and on the information available in the system"
+* benefitMarkdown = "It helps me selecting the appropriate treatment regimen for the client"
 * classification[+] = FXREQBusinessProcesses#D
 

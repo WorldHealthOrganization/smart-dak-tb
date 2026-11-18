@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.033.D"
 * activity = " Develop monitoring examinations and a schedule of follow-up visits"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "To have the system automatically calculate a date when the client should return for care, based on treatment regimen, clinical condition and monitoring examinations"
-* benefitString = "I do not have to calculate this myself"
+* capabilityMarkdown = "To have the system automatically calculate a date when the client should return for care, based on treatment regimen, clinical condition and monitoring examinations"
+* benefitMarkdown = "I do not have to calculate this myself"
 * classification[+] = FXREQBusinessProcesses#D
 

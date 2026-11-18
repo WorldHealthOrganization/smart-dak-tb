@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.036.D"
 * activity = " Report the outcome(s)"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "The system to trigger an alert to assign treatment outcome in case the expected TB treatment completion date is reached and there is no treatment outcome assigned"
-* benefitString = "Alignment between the number of cases notified and number of treatment outcome cohort (all notified cases have assigned treatment outcomes) is ensured"
+* capabilityMarkdown = "The system to trigger an alert to assign treatment outcome in case the expected TB treatment completion date is reached and there is no treatment outcome assigned"
+* benefitMarkdown = "Alignment between the number of cases notified and number of treatment outcome cohort (all notified cases have assigned treatment outcomes) is ensured"
 * classification[+] = FXREQBusinessProcesses#D
 

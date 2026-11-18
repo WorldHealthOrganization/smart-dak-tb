@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.029.C"
 * activity = " Interpret the follow-on test(s) results"
 * actor[+] = Reference(healthworkere.g.nurse)
-* capabilityString = "The system to be capable to receive diagnosis test results from laboratories or other test centres "
-* benefitString = "I can take the appropriate actions more quickly"
+* capabilityMarkdown = "The system to be capable to receive diagnosis test results from laboratories or other test centres "
+* benefitMarkdown = "I can take the appropriate actions more quickly"
 * classification[+] = FXREQBusinessProcesses#C
 

@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Easy to learn and intuitive to enable user to navigate between pages"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsusability
 * description = """
 *Category*: System requirements – usability
 Easy to learn and intuitive to enable user to navigate between pages

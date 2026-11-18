@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Allow admin user to request password reset"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Securityusermanagement
 * description = """
 *Category*: Security – user management
 Allow admin user to request password reset

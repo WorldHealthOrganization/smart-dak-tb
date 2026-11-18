@@ -8,7 +8,6 @@ Usage: #definition
 * publisher = "WHO"
 * experimental = true
 * actor[+] = Canonical(healthworkerordataentryclerkormedicalofficereceptionist)
-* extension[classification][+].valueCoding = FXREQBusinessProcesses#A
 * extension[userstory].extension[capability].valueString = "To search to see whether client is already in the system (using at least two identifiers)"
 * extension[userstory].extension[benefit].valueString = "I can check whether this is a new or existing client"
 * description = """

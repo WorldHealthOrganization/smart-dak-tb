@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Allow user with permission to create a new user and temporary password"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Securityusermanagement
 * description = """
 *Category*: Security – user management
 Allow user with permission to create a new user and temporary password

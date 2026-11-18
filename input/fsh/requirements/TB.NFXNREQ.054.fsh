@@ -7,7 +7,6 @@ Usage: #definition
 * name = "Support multiple languages"
 * publisher = "WHO"
 * experimental = true
-* extension[classification][+].valueCoding = FXREQCategories#Systemrequirementsusability
 * description = """
 *Category*: System requirements – usability
 Support multiple languages

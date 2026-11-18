@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.010.A"
 * activity = " Create a new client record"
 * actor[+] = Reference(healthworkerordataentryclerkormedicalofficereceptionist)
-* capabilityString = "To edit fields on screen before information is committed"
-* benefitString = "I can ensure information has been checked before submission"
+* capabilityMarkdown = "To edit fields on screen before information is committed"
+* benefitMarkdown = "I can ensure information has been checked before submission"
 * classification[+] = FXREQBusinessProcesses#A
 

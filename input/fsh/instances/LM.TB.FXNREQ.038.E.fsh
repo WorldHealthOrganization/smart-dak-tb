@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.038.E"
 * activity = " Make an informed decision"
 * actor[+] = Reference(healthinformationofficer)
-* capabilityString = "The system to prompt the health worker to get informed consent from the client before proceeding with the TPT evaluation"
-* benefitString = "I can ensure that client rights are protected"
+* capabilityMarkdown = "The system to prompt the health worker to get informed consent from the client before proceeding with the TPT evaluation"
+* benefitMarkdown = "I can ensure that client rights are protected"
 * classification[+] = FXREQBusinessProcesses#E
 

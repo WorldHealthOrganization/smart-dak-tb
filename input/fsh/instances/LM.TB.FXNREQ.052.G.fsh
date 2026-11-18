@@ -12,7 +12,7 @@ Usage: #definition
 * id = "LM.TB.FXNREQ.052.G"
 * activity = " Generate aggregate reports"
 * actor[+] = Reference(healthworkerordataentryclerk)
-* capabilityString = "To produce a range of prepared reports"
-* benefitString = "I do not need to create the reports manually for reporting purposes"
+* capabilityMarkdown = "To produce a range of prepared reports"
+* benefitMarkdown = "I do not need to create the reports manually for reporting purposes"
 * classification[+] = FXREQBusinessProcesses#G
 
