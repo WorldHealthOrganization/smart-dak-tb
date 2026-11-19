@@ -1,0 +1,9 @@
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement",
+  "id": "LM.TB.NFXNREQ.046",
+  "requirement": "Scalable to accommodate new demands",
+  "category": {
+    "code": "Systemrequirementsscalability",
+    "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"
+  }
+}

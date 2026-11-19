@@ -1,0 +1,9 @@
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement",
+  "id": "LM.TB.NFXNREQ.039",
+  "requirement": "Report version number when saving data to the database",
+  "category": {
+    "code": "Systemrequirementsgeneral",
+    "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"
+  }
+}

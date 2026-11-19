@@ -1,0 +1,9 @@
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement",
+  "id": "LM.TB.NFXNREQ.059",
+  "requirement": "Adjust display to fit small screens (e.g. mobile phones)",
+  "category": {
+    "code": "Systemrequirementsusability",
+    "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"
+  }
+}

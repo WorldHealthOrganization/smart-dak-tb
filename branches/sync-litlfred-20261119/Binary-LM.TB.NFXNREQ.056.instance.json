@@ -1,0 +1,9 @@
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement",
+  "id": "LM.TB.NFXNREQ.056",
+  "requirement": "Easy to learn and intuitive to enable user to navigate between pages",
+  "category": {
+    "code": "Systemrequirementsusability",
+    "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"
+  }
+}

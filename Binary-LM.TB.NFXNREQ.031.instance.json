@@ -1,0 +1,9 @@
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement",
+  "id": "LM.TB.NFXNREQ.031",
+  "requirement": "Notify the user to regularly change their password",
+  "category": {
+    "code": "Securityusermanagement",
+    "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement",
+  "id": "LM.TB.FXNREQ.004.A",
+  "activity": " Search for the client record",
+  "actor": [
+    {
+      "reference": "ActorDefinition/healthworkerordataentryclerkormedicalofficereceptionist"
+    }
+  ],
+  "capabilityMarkdown": "The system to require me (a user) to search to see whether a client is already in the system before starting a new medical record entry",
+  "benefitMarkdown": "I can avoid duplicates and update information as necessary",
+  "classification": [
+    {
+      "code": "A",
+      "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"
+    }
+  ]
+}

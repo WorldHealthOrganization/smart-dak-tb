@@ -1,0 +1,9 @@
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement",
+  "id": "LM.TB.NFXNREQ.052",
+  "requirement": "Support real-time data entry validation and feedback to prevent data entry errors from being recorded",
+  "category": {
+    "code": "Systemrequirementsusability",
+    "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"
+  }
+}

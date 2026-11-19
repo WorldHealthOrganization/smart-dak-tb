@@ -1,0 +1,347 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-smart.who.int.dak-tb.json	143481	-	0	0	0	0	0	0	41	78	0	0	0	0	0	0	0	1	0	0	204	222	0	0	0	18	0	7
+fsh-generated/resources/ActorDefinition-healthinformationofficer.json	508	11	0	0	4	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	10	17	0	0	0	1	0	0
+fsh-generated/resources/ActorDefinition-healthworkere.g.nurse.json	502	3	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	5	7	0	0	0	1	0	0
+fsh-generated/resources/ActorDefinition-healthworkerordataentryclerk.json	537	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	6	7	0	0	0	0	0	0
+fsh-generated/resources/ActorDefinition-healthworkerordataentryclerkormedicalofficereceptionist.json	684	2	0	0	1	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	4	7	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-FXREQBusinessProcesses.json	953	1	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	2	60	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-FXREQCategories.json	1570	2	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	4	46	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.001.A.json	1390	1	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	1	0	0	4	13	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.002.A.json	1516	1	0	0	0	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	3	8	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.003.A.json	1314	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	4	8	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.004.A.json	1494	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	2	8	0	0	0	0	0	1
+fsh-generated/resources/Requirements-TB.FXNREQ.005.A.json	1522	2	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	8	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.006.A.json	1346	1	0	0	1	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.007.A.json	1262	2	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.008.A.json	1408	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.009.A.json	1270	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	8	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.010.A.json	1332	1	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	3	8	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.011.A.json	1472	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	3	8	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.012.A.json	1361	2	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.013.A.json	1315	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	2	8	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.014.A.json	1283	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	8	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.015.A.json	1477	1	0	0	0	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	4	10	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.016.A.json	1263	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	4	11	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.017.A.json	1369	1	0	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	17	0	0	0	0	0	1
+fsh-generated/resources/Requirements-TB.FXNREQ.018.A.json	1285	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	9	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.019.A.json	1489	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	9	1	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.020.A.json	1301	1	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	3	8	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.021.B.json	1598	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	4	8	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.022.B.json	1560	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	11	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.023.B.json	1344	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	4	9	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.024.B.json	1376	2	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	2	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.025.B.json	1369	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.026.C.json	1295	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	4	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.027.C.json	1870	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	8	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.028.C.json	1267	1	0	0	0	0	1	0	0	2	0	0	0	0	0	0	0	0	0	0	4	7	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.029.C.json	1324	1	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	4	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.030.D.json	1485	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	6	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.031.D.json	1457	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	1	0	1
+fsh-generated/resources/Requirements-TB.FXNREQ.032.D.json	1284	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.033.D.json	1520	2	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.034.D.json	1449	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	8	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.035.D.json	1523	1	0	0	0	0	0	0	0	2	0	0	1	0	0	0	0	0	0	0	4	6	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.036.D.json	1605	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.037.E.json	1290	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	2	7	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.038.E.json	1346	1	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	4	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.039.E.json	1319	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	8	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.040.E.json	1220	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.041.E.json	1546	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.042.E.json	1261	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.043.E.json	1505	1	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	3	8	0	0	0	1	0	1
+fsh-generated/resources/Requirements-TB.FXNREQ.044.F.json	1458	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.045.F.json	1368	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	4	8	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.046.F.json	1233	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.047.F.json	1261	1	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	5	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.048.F.json	1293	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	4	7	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.049.F.json	1265	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.050.F.json	1491	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	4	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.051.F.json	1234	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	5	8	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.052.G.json	1249	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.FXNREQ.053.G.json	1529	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.001.json	562	1	0	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	5	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.002.json	652	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	5	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.003.json	589	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.004.json	544	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.005.json	523	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.006.json	601	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	5	0	0	0	0	0	1
+fsh-generated/resources/Requirements-TB.NFXNREQ.007.json	550	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	5	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.008.json	940	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.009.json	600	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.010.json	516	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.011.json	567	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.012.json	558	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.013.json	525	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.014.json	600	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.015.json	612	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.016.json	732	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.017.json	492	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.018.json	513	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.019.json	618	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.020.json	549	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	5	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.021.json	627	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.022.json	522	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.023.json	612	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.024.json	495	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.025.json	610	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	1	0	1
+fsh-generated/resources/Requirements-TB.NFXNREQ.026.json	475	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.027.json	661	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.028.json	565	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.029.json	517	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.030.json	526	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	5	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.031.json	550	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.032.json	553	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.033.json	718	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.034.json	550	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.035.json	562	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.036.json	574	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.037.json	589	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	4	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.038.json	607	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.039.json	565	1	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	3	7	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.040.json	643	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.041.json	529	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	5	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.042.json	571	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.043.json	541	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	0	0	1
+fsh-generated/resources/Requirements-TB.NFXNREQ.044.json	616	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.045.json	598	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.046.json	512	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.047.json	614	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	5	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.048.json	596	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	5	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.049.json	567	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	5	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.050.json	546	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	5	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.051.json	591	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	3	5	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.052.json	708	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.053.json	723	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	5	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.054.json	483	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.055.json	693	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.056.json	609	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	5	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.057.json	678	1	0	0	0	0	0	0	0	61	0	0	0	0	0	0	0	0	0	1	2	5	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.058.json	591	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	5	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.059.json	573	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	3	5	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.060.json	499	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.061.json	655	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	2	5	0	0	0	1	0	1
+fsh-generated/resources/Requirements-TB.NFXNREQ.062.json	481	1	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	3	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.063.json	661	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.064.json	565	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.065.json	607	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.066.json	580	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	2	5	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.067.json	613	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	1	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.068.json	535	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	7	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.069.json	637	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	3	6	0	0	0	0	0	0
+fsh-generated/resources/Requirements-TB.NFXNREQ.070.json	937	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	5	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-FXREQBusinessProcesses.json	530	1	0	0	0	0	0	0	0	247	0	0	0	0	0	0	0	0	0	0	2	188	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-FXREQCategories.json	484	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	2	42	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.001.A.json	624	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	3	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.002.A.json	687	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.003.A.json	586	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.004.A.json	676	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.005.A.json	690	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.006.A.json	602	-	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.007.A.json	561	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.008.A.json	634	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.009.A.json	565	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.010.A.json	596	-	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.011.A.json	666	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.012.A.json	610	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.013.A.json	587	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.014.A.json	571	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.015.A.json	668	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.016.A.json	561	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.017.A.json	614	-	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.018.A.json	576	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.019.A.json	678	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.020.A.json	584	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.021.B.json	736	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.022.B.json	717	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.023.B.json	616	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.024.B.json	635	-	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.025.B.json	636	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.026.C.json	596	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.027.C.json	879	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.028.C.json	578	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.029.C.json	606	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.030.D.json	673	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.031.D.json	659	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.032.D.json	582	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.033.D.json	689	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.034.D.json	671	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.035.D.json	707	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.036.D.json	754	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.037.E.json	583	-	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.038.E.json	614	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.039.E.json	588	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.040.E.json	551	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.041.E.json	714	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.042.E.json	563	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.043.E.json	692	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.044.F.json	667	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.045.F.json	625	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.046.F.json	568	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.047.F.json	582	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.048.F.json	588	-	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.049.F.json	574	-	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.050.F.json	687	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.051.F.json	572	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.052.G.json	560	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.FXNREQ.053.G.json	700	-	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.001.json	330	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.002.json	360	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.003.json	339	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.004.json	324	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.005.json	317	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.006.json	343	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.007.json	326	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	1	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.008.json	456	-	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.009.json	342	-	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.010.json	314	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.011.json	331	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.012.json	328	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.013.json	317	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.014.json	342	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.015.json	346	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.016.json	386	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.017.json	307	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.018.json	314	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.019.json	349	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.020.json	326	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.021.json	352	-	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	3	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.022.json	317	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.023.json	347	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.024.json	308	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.025.json	345	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.026.json	300	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.027.json	362	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.028.json	330	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.029.json	314	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	3	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.030.json	317	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	4	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.031.json	325	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.032.json	326	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.033.json	381	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.034.json	327	-	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.035.json	331	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.036.json	335	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.037.json	340	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.038.json	346	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.039.json	332	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.040.json	358	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.041.json	320	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.042.json	334	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.043.json	324	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.044.json	349	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.045.json	343	-	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.046.json	317	-	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.047.json	351	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.048.json	345	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.049.json	334	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.050.json	327	-	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.051.json	342	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.052.json	381	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.053.json	386	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.054.json	306	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.055.json	376	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.056.json	348	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.057.json	371	-	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.058.json	342	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.059.json	336	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.060.json	314	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.061.json	366	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.062.json	308	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.063.json	368	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.064.json	338	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.065.json	352	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.066.json	343	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.067.json	354	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.068.json	328	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.069.json	362	-	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+/fsh-generated/resources/Binary-LM.TB.NFXNREQ.070.json	466	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	1	0	0	0
+/input/includes/dmn2html.xslt	6208	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/fsh-generated/includes/fsh-link-references.md	13345	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/fsh-generated/includes/menu.xml	4124	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/data/features.yaml	84	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/changes.md	613	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/data-models-and-exchange.md	3568	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/scenarios.md	1311	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/references.md	1737	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/personas.md	1129	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/ValueSet-FXREQCategories.md	279	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/security-privacy.md	328	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/transactions.md	436	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/concepts.md	142	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/trust_domain.md	284	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/feedback.md	519	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/non-functional-requirements.md	396	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/dak-api.md	212	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/functional-requirements.md	490	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/ValueSet-FXREQBusinessProcesses.md	304	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/index.md	68	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/decision-logic.md	518	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/business-requirements.md	1245	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/dictionary.md	507	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/deployment.md	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/indicators-measures.md	591	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/trust_domain_policy.md	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/trust_domain_specifications.md	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/index-ig.md	4639	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/codings.md	717	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/scheduling-logic.md	483	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/business-process.md	11	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/index-dak.md	4003	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/license.md	3787	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/reference-implementations.md	474	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/trust_domain_use_cases.md	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/test-data.md	461	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/downloads.md	1055	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/system-actors.md	1360	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/system-requirements.md	638	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/indicators.md	446	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/indices.md	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/testing.md	2743	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/adapting.md	3621	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/maps.md	109	-	-	-	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/business-processes.md	411	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/sequence-diagrams.md	109	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/dependencies.md	850	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/dictionary	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/dictionary/TB DAK_core data dictionary.xlsx	308170	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/decision-logic	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/decision-logic/TB DAK_decision-support logic.xlsx	269486	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/TB DAK_SVG files.zip	42954	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/c-diagnosis.bpmn	42117	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/d-tb-treatment.tasks.json	29618	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/f-referral.tasks.json	7924	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/a-registration.tasks.json	9395	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/g-aggregate-reporting.bpmn	15953	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/business-processes/BPMN files/b-screening.bpmn	14313	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/d-tb-treatment.bpmn	24940	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/f-referral.bpmn	22947	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/e-tpt.bpmn	30644	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/c-diagnosis.tasks.json	25611	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/a-registration.bpmn	16914	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/b-screening.tasks.json	9981	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/e-tpt.tasks.json	18287	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/g-aggregate-reporting.tasks.json	6891	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/BPMN files/0-tb-overview.bpmn	9935	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/business-processes/TB DAK_BPMN files.zip	29830	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/SVG files	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/SVG files/0-tb-overview (no colors).svg	23580	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/SVG files/d-tb-treatment.svg	63996	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/SVG files/a-registration.svg	39842	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/SVG files/e-tpt.svg	73257	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/SVG files/0-tb-overview.svg	23721	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/SVG files/g-aggregate-reporting.svg	35358	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/business-processes/SVG files/c-diagnosis.svg	105282	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/SVG files/f-referral.svg	56431	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/business-processes/SVG files/b-screening.svg	33909	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/scheduling-logic	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/scheduling-logic/TB DAK_scheduling logic.xlsx	102363	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/indicators	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/indicators/TB DAK_indicators.xlsx	96744	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/system-requirements	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/system-requirements/TB DAK_functional and non-functional requirements.xlsx	331655	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/testing	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	137377	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	5	0	0	0	0	0	0

@@ -1,0 +1,9 @@
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement",
+  "id": "LM.TB.NFXNREQ.063",
+  "requirement": "Configure workflows and business rules to accommodate differences between facilities",
+  "category": {
+    "code": "Systemrequirementsconfiguration",
+    "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"
+  }
+}

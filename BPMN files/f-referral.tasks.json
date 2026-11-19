@@ -1,0 +1,212 @@
+{
+  "$schema": "dak-task-annotations/v1",
+  "bpmn": "f-referral.bpmn",
+  "process": "TB.F",
+  "document": "9789240086616-eng",
+  "heading": "REFERRAL BUSINESS PROCESS NOTES AND ANNOTATIONS",
+  "tasks": [
+    {
+      "bpmnTask": "Gateway_1rds0q5",
+      "activityId": "TB.F1",
+      "name": "Emergency referral?",
+      "description": "- If the client needs immediate referral due to an emergency situation, bypass standard referral steps.\n- In an emergency, a referral can be made at any time, including during diagnosis and treatment encounters.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "1"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0hs60xm",
+      "activityId": "TB.F2",
+      "name": "Emergency referral",
+      "description": "- 2.1 Stabilize the client and give pre-referral treatment The client is assumed to need emergency referral if their condition requires immediate medical attention. Stabilize the client’s condition and provide any necessary treatment.\n- 2.2 Is the client stable enough to transport? Once the client is stable enough to transport, immediately organize it. If the client is still not stable, provide pre-referral treatment for stabilization.\n- 2.3 Organize transport For emergency referrals, the health-care facility usually arranges for an ambulance or other vehicle.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "2"
+      }
+    },
+    {
+      "bpmnTask": "Activity_07huiyc",
+      "activityId": "TB.F3",
+      "name": "Identify and discuss referral location options",
+      "description": "- In discussion with the client and their relatives, decide where the client will be referred to. Discussions include: • how to get to the referral facility, including location and transportation options; • who to see and what is likely to happen; • whether to follow up on return.\n- Either the client or the client’s relatives should decide on a referral location based on their preferences.",
+      "personas": [
+        "Health-care facility / community"
+      ],
+      "dataElements": [],
+      "requirements": [
+        "TB.FXNREQ.045"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "3"
+      }
+    },
+    {
+      "bpmnTask": "Activity_042q3w2",
+      "activityId": "TB.F4",
+      "name": "Contact referral facility",
+      "description": "- Health workers should contact the referral facility to determine whether that facility can accommodate such a referral.",
+      "personas": [
+        "Health-care facility / community"
+      ],
+      "dataElements": [],
+      "requirements": [
+        "TB.FXNREQ.046",
+        "TB.FXNREQ.047"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "4"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_0wsfyp2",
+      "activityId": "TB.F5",
+      "name": "Can the facility accommodate?",
+      "description": "- Check whether facility can accommodate the client and provide the services needed.\n- If the facility can accommodate the client, move on to step 6.\n- Otherwise, find a different facility that is able to accommodate the client.\n- A system can be set up to catalogue referral facilities, and what type of referral needs they can handle to accommodate a referral.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "5"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0y06va4",
+      "activityId": "TB.F6",
+      "name": "Provide information to the receiving facility",
+      "description": "- Make an appointment, if needed.\n- If not an emergency referral, the client or family arranges transport.\n- For emergency referrals, the health-care facility arranges transport, usually by phoning the district for an ambulance or other vehicle, and informing the receiving facility that the emergency client is on the way.\n- Fill out a referral form, which can include notification of the referral destination.\n- Provide the necessary clinical, sociodemographic and identity information to the referral facility. This can be done digitally if the appropriate systems are in place.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.F6.DE.1",
+        "TB.F6.DE.10",
+        "TB.F6.DE.11",
+        "TB.F6.DE.12",
+        "TB.F6.DE.13",
+        "TB.F6.DE.14",
+        "TB.F6.DE.15",
+        "TB.F6.DE.16",
+        "TB.F6.DE.26",
+        "TB.F6.DE.27",
+        "TB.F6.DE.28",
+        "TB.F6.DE.29",
+        "TB.F6.DE.30",
+        "TB.F6.DE.31",
+        "TB.F6.DE.4"
+      ],
+      "requirements": [
+        "TB.FXNREQ.048",
+        "TB.FXNREQ.049"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "6"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0d0vcse",
+      "activityId": "TB.F7",
+      "name": "Discuss any questions with the client",
+      "description": "- Discuss any of the client’s questions or concerns.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "7"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0sqmixa",
+      "activityId": "TB.F8",
+      "name": "Check whether the client can be accommodated",
+      "description": "- The receiving facility evaluates the needs and assesses whether the client can receive the services needed.",
+      "personas": [
+        "Receiving health-care facility"
+      ],
+      "dataElements": [],
+      "requirements": [
+        "TB.FXNREQ.050"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "8"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_0r114xe",
+      "activityId": "TB.F9",
+      "name": "Is it possible to accommodate the client?",
+      "description": "- If the receiving facility cannot accommodate the client, it will inform the source facility. If accommodation for the client is possible, move on to step",
+      "personas": [
+        "Receiving health-care facility"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "9"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1qdg4pq",
+      "activityId": "TB.F10",
+      "name": "Receive the client",
+      "description": "- The receiving facility receives the client, along with all the necessary clinical, sociodemographic and identification information, and provides the services. If both facilities use digital systems with interoperability standards in place, the information can be exchanged digitally in a faster and more reliable way.",
+      "personas": [
+        "Receiving health-care facility"
+      ],
+      "dataElements": [],
+      "requirements": [
+        "TB.FXNREQ.051"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "10"
+      }
+    }
+  ],
+  "unmatched": [],
+  "unannotated": [
+    "Activity_0xp3xn4",
+    "Activity_1vwpttt"
+  ]
+}

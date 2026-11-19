@@ -1,0 +1,534 @@
+{
+  "$schema": "dak-task-annotations/v1",
+  "bpmn": "d-tb-treatment.bpmn",
+  "process": "TB.D",
+  "document": "9789240086616-eng",
+  "heading": "TB TREATMENT BUSINESS PROCESS NOTES AND ANNOTATIONS",
+  "tasks": [
+    {
+      "bpmnTask": "Activity_0zlehl4",
+      "activityId": "TB.D1",
+      "name": "Determine eligibility for TB treatment regimen type",
+      "description": "- The health worker determines whether the client is eligible based on laboratory results and previous clinical evaluation, for a regimen designed to treat rifampicin (RIF)-susceptible TB or if a regimen for TB resistant to RIF is more appropriate.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.Comm.DE.49",
+        "TB.D1.DE.1",
+        "TB.D1.DE.5"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "1"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_17aeb22",
+      "activityId": "TB.D2",
+      "name": "Capacity for treating TB exists",
+      "description": "- When treatment cannot be started or continued in the current facility (e.g. lack of skills, knowledge, stock of medicines), a referral is issued to transfer the patient to a new treatment facility.\n- All children and adolescents with severe forms of TB (tuberculosis meningitis [TBM], peritonitis, pericarditis, renal, spinal, disseminated or osteoarticular TB) and those suspected of having MDR/RR-TB (in contact with a person with confirmed or suspected MDR/RR-TB, or children and adolescents diagnosed with TB who are not responding to first-line TB treatment) should be referred to a specialist for further management if management capacity where they present is insufficient. • 5.2.8.1. Indications for referral and hospitalization.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "2"
+      }
+    },
+    {
+      "bpmnTask": "Activity_101ntvv",
+      "activityId": "TB.D3",
+      "name": "Assess for comorbidities",
+      "description": "- There are some comorbidities and risk factors that increase the risk of poor TB treatment outcomes, or further transmission, which may require close clinical management. The assessment of comorbidities and risk factors (e.g. diabetes, disorders due to alcohol or drug use, HIV, smoking, undernutrition, coronavirus disease 2019, mental disorders, viral hepatitis) as part of the baseline clinical review is also important to determine additional needs for co-management, to correctly interpret adverse drug reactions, if such reactions are identified during or after the treatment ends, and for providing advice and counselling as necessary. – Guideline: nutritional care and support for patients with tuberculosis (28) – Framework for collaborative action on tuberculosis and comorbidities (38): • Table 2. Health-related risk factors and TB comorbidities, with related interventions recommended in current WHO guidelines – WHO operational handbook on tuberculosis – Module 6: tuberculosis and comorbidities – mental health conditions (40) – Consolidated guidelines on HIV prevention, testing, treatment, service delivery and monitoring: recommendations for a public health approach (44) – HEARTS D: diagnosis and management of type 2 diabetes (45) – mhGAP intervention guide Mental Health Gap Action Programme version 2.0 for mental, neurological and substance use disorders in non-specialized health settings (46) – A WHO/the Union monograph on TB and tobacco control: joining efforts to control two related global epidemics (47) – Consolidated guidelines on person-centred HIV strategic information: strengthening routine data for impact (48).",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [
+        "TB.Comm.DE.16",
+        "TB.Comm.DE.23",
+        "TB.Comm.DE.9"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "3"
+      }
+    },
+    {
+      "bpmnTask": "Activity_03ushfr",
+      "activityId": "TB.D4",
+      "name": "Issue referral for management of comorbidities",
+      "description": "- Beyond the impact on TB, collaborative action on TB and comorbidities may also improve efficiency of resource use, reduce health-care visits, address fragmentation in health systems and improve health outcomes. Therefore, the health worker must ensure that once a comorbidity or impairment is identified, the patient receives the care they need, preferably at the same place or via referral to an appropriate health service in case of need. This may include referral to mental health or substance use services, preventive and rehabilitation services, and social protection services to improve the health and social outcomes of people with TB.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "4"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1vh4vwc",
+      "activityId": "TB.D5",
+      "name": "Perform other baseline clinical evaluations",
+      "description": "- TB treatment poses special issues in some subgroups of patients (pregnant women, people aged over 65 years, those with chronic kidney or liver disease). For patients belonging to these subgroups, a set of baseline examinations (clinical, electrocardiography, laboratory evaluations) are recommended before starting TB treatment.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [
+        "TB.Comm.DE.102",
+        "TB.Comm.DE.105",
+        "TB.Comm.DE.44",
+        "TB.Comm.DE.48",
+        "TB.D5.DE.1",
+        "TB.D5.DE.2",
+        "TB.D5.DE.3"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "5"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1f1jm6j",
+      "activityId": "TB.D6",
+      "name": "Evaluate drug–drug interactions",
+      "description": "- For patients taking other medicines (older people, people with comorbidities), interaction between the drugs taken as part of the TB treatment regimen and other drugs taken by the patient must be evaluated.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "6"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1siqxd9",
+      "activityId": "TB.D7",
+      "name": "Consider corticosteroid use",
+      "description": "- Treatment with corticosteroids is recommended for tuberculous meningitis and tuberculous pericarditis because the benefits outweigh the potential harms of corticosteroid therapy. resistant tuberculosis treatment 2022 update) (34): • 8.2 Use of corticosteroids susceptible tuberculosis treatment) (35): • 7.3 Use of adjuvant steroids in the treatment of tuberculous meningitis and pericarditis.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "7"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_0dx4622",
+      "activityId": "TB.D8",
+      "name": "Is the client eligible for treatment using a regimen designed to treat rifampicin-susceptible TB?",
+      "description": "",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "8"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1e6m4x4",
+      "activityId": "TB.D9",
+      "name": "Determine the regimen designed to treat rifampicin-susceptible TB",
+      "description": "- The health worker selects the most appropriate regimen designed for rifampicin-susceptible TB based on specific considerations, such as age, HIV status, site of TB disease, severity of the disease, previous TB treatment and DST results.\n- In settings where rapid, molecular-based DST is available, the results should guide the choice of regimen. In settings where rapid DST results are not routinely available to guide the management of individual patients, the approach to treatment selection can be guided by clinical judgement and consideration of the epidemiology of TB and its drug-resistant forms in the specific setting.\n- Decision logic: TB.D9.DT. susceptible tuberculosis treatment) (35) • 5.2. Treatment of drug-susceptible TB in children and adolescents.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.D9.DE.1"
+      ],
+      "requirements": [
+        "TB.FXNREQ.030",
+        "TB.FXNREQ.031"
+      ],
+      "decisionTables": [
+        "TB.D9.DT"
+      ],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "9"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0svy5pi",
+      "activityId": "TB.D10",
+      "name": "Determine the regimen designed to treat rifampicin-resistant TB",
+      "description": "- The health worker selects the most appropriate regimen designed for TB resistant to rifampicin based on specific considerations, such as age, DST results, eligibility criteria for the drug-resistant tuberculosis (DR-TB) regimens, pregnancy status, severity of the disease.\n- The inability to undertake DST routinely for all patients despite all possible efforts should not be a barrier to starting patients on a potentially life- saving DR-TB regimen; however, treatment should always be considered in a context of the potential risk of prescribing ineffective treatment and amplifying drug resistance, with a subsequent decrease in the likelihood of treatment effectiveness.\n- The findings of the clinical review are also considered in the treatment selection decision.\n- Decision logic: TB.D10.DT. resistant tuberculosis treatment 2022 update) (34) • 5.3 Treatment of multidrug-resistant and rifampicin-resistant TB in children and adolescents.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.D10.DE.1",
+        "TB.D10.DE.25",
+        "TB.D9.DE.1"
+      ],
+      "requirements": [
+        "TB.FXNREQ.030",
+        "TB.FXNREQ.031"
+      ],
+      "decisionTables": [
+        "TB.D10.DT"
+      ],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "10"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1jbby53",
+      "activityId": "TB.D11",
+      "name": "Determine the dosages of medicines for TB treatment",
+      "description": "- The health worker determines the dosage for the medicine part of the treatment regimen, based on age and weight band.\n- Decision logic: TB.D11.DT. resistant tuberculosis treatment 2022 update) (34): • Annex. Weight-based dosing of medicines used in multidrug- resistant TB regimens, adults and children susceptible tuberculosis treatment) (35): • Annex. Dosages of anti-TB medicines by weight band for treatment of DS-TB • 5.2.7. Recommended dosing of first-line medicines in children • Annex 6. Dosing of medicines used in second-line multidrug- resistant TB regimens by weight band (below 46 kg).",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [
+        "TB.D11.DT"
+      ],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "11"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1iirqqo",
+      "activityId": "TB.D12",
+      "name": "Make an informed decision",
+      "description": "- All treatment delivered should align with WHO-recommended standards, including obtaining informed consent where necessary (signed or witnessed consent if the patient is illiterate, or signed or witnessed consent from a child’s parent or legal guardian).\n- Patients who refuse to consent to TB treatment should be counselled about the risks to both themselves and the community.",
+      "personas": [
+        "Client"
+      ],
+      "dataElements": [
+        "TB.D12.DE.1"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "12"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1pcxzgj",
+      "activityId": "TB.D13",
+      "name": "Initiate the treatment and discuss adherence",
+      "description": "- Once the appropriate treatment regimen is identified, the correct medicine dosages are determined and the consent from the patient (parent or legal guardian in case of children or adolescents) is obtained, treatment can be initiated.\n- The health worker should undertake the relevant measures to support adherence and ensure favourable treatment outcomes, such as: – consider directly observed treatment; – optimize access of the patient to social protection services; – provide psychosocial support (psychosocial assessment should offer an opportunity to assess supportive factors for treatment adherence and should be directly linked to relevant interventions wherever possible, as per country-specific questionnaires); – consider the use of digital technologies. – WHO operational handbook on tuberculosis – Module 4: treatment (tuberculosis care and support) (36): • 4.4. Counselling to provide information about TB treatment and to ensure adherence to treatment • 4.5. Counselling to provide psychological support • Box 7.6 Proposed interventions to address needs of adolescents with or at risk of TB • 5.2.11. Treatment adherence.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.Comm.DE.136",
+        "TB.D13.DE.1",
+        "TB.D13.DE.2",
+        "TB.D13.DE.3",
+        "TB.D13.DE.4"
+      ],
+      "requirements": [
+        "TB.FXNREQ.032"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "13"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1uwofbl",
+      "activityId": "TB.D14",
+      "name": "Develop TB monitoring examinations and a schedule of follow-up visits",
+      "description": "- Patients should undergo appropriate evaluation at baseline, as well as during and after treatment. This should include necessary clinical evaluations (e.g. laboratory tests, electrocardiography), and bacteriological and radiological examinations.\n- Clinical visits should coincide with bacteriological and clinical laboratory examination schedules, to limit time and transportation constraints for the patient.\n- Decision logic: TB.D14.S. resistant tuberculosis treatment 2022 update) (34): • 4.5 Treatment monitoring • 5.5 Treatment monitoring • 6.5 Treatment monitoring • 7.4 Treatment monitoring susceptible tuberculosis treatment) (35): • 3.5 Treatment monitoring • 4.5 Treatment monitoring • 5.5 Treatment monitoring • 9 Monitoring treatment response.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.D14.DE.1"
+      ],
+      "requirements": [
+        "TB.FXNREQ.033"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "14"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0pggetq",
+      "activityId": "TB.D15",
+      "name": "Perform the clinical assessment",
+      "description": "- Clinical assessment should focus on monitoring response to treatment and addressing common symptoms associated with TB treatment and long-term antibiotic use, with the goal of supporting adherence. Persistent fever, weight loss or recurrence of any of the classic symptoms of TB should prompt investigation for possible treatment failure, undetected resistance to one or more drugs in the current treatment regimen or untreated comorbidities.\n- TB-associated disabilities can be long term or temporary and may result from TB disease affecting tissues and organs, adverse reactions to TB medicines and comorbid mental health disorders. Therefore, clinical evaluation may also include early identification and screening for impairments, disabilities and subsequent rehabilitation needs.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [
+        "TB.Comm.DE.1",
+        "TB.Comm.DE.2",
+        "TB.Comm.DE.3",
+        "TB.Comm.DE.4",
+        "TB.Comm.DE.5",
+        "TB.Comm.DE.57",
+        "TB.Comm.DE.6",
+        "TB.Comm.DE.68",
+        "TB.Comm.DE.7",
+        "TB.Comm.DE.71",
+        "TB.Comm.DE.8"
+      ],
+      "requirements": [
+        "TB.FXNREQ.034"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "15"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1ujx38y",
+      "activityId": "TB.D16",
+      "name": "Assess treatment adherence",
+      "description": "- The most common challenge in TB care is when a patient discontinues taking medicines or misses treatment appointments. Measures to support patient adherence tailored to patient needs are important to retain patients on treatment and ensure good treatment outcomes. Support should be provided through an effective model of care and measures should include support in the community or at home, social support and digital health interventions for communication with the patient.\n- The following actions should be taken in case of poor adherence: – home visit to engage with the patient; – assess the reasons for discontinuing treatment; – discuss the patient’s concerns that caused non-adherence; – educate the patient about the need to continue treatment; – counsel and support the patient to resume treatment promptly; and – engage community health workers, family members and caregivers to ensure treatment adherence.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "16"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0zodjg8",
+      "activityId": "TB.D17",
+      "name": "Evaluate the presence of adverse drug reactions (if any) and report",
+      "description": "- Active pharmacovigilance should be performed, as well as proper management of adverse events and prevention of complications from drug–drug interactions. An appropriate schedule of laboratory tests and clinical examinations should be included on the patient’s treatment chart to identify adverse events.\n- All patients, their treatment supporters and health workers should ideally be instructed to report the appearance, persistence or reappearance of adverse drug reactions.\n- Adverse drug reactions should be reported to the spontaneous pharmacovigilance systems required by national regulations, as for other drug-related harms. Where digital tools are not available, at least a written record of all medications given, bacteriological response and adverse events should be maintained for every TB patient on the TB treatment card. In settings where active TB drug safety monitoring and management has not yet been fully rolled out and national guidelines have not been updated, patients should not be left to wait until all programme components are fully in place before they can receive potentially life-saving interventions. resistant tuberculosis treatment 2022 update) (34): • 3.2 Safety monitoring and management, provision of patient support and management of comorbidities susceptible tuberculosis treatment) (35): • 9 Monitoring treatment response.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "17"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1lsdu2c",
+      "activityId": "TB.D18",
+      "name": "Perform the follow-up examinations",
+      "description": "- Regular microscopy and culture of sputum or other specimens are important to assess response to treatment. Other examinations, according to the monitoring examination schedule (if available), should be performed to identify in a timely manner adverse events and to manage comorbidities appropriately.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [
+        "TB.Comm.DE.112",
+        "TB.Comm.DE.118",
+        "TB.Comm.DE.119",
+        "TB.Comm.DE.120",
+        "TB.Comm.DE.121",
+        "TB.Comm.DE.125",
+        "TB.Comm.DE.126",
+        "TB.Comm.DE.130",
+        "TB.Comm.DE.133",
+        "TB.Comm.DE.72",
+        "TB.Comm.DE.73",
+        "TB.Comm.DE.86",
+        "TB.Comm.DE.93",
+        "TB.Comm.DE.96",
+        "TB.D18.DE.1",
+        "TB.D18.DE.2",
+        "TB.D18.DE.3",
+        "TB.D18.DE.4",
+        "TB.D18.DE.5",
+        "TB.D18.DE.6",
+        "TB.D18.DE.7"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "18"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0ldb2j6",
+      "activityId": "TB.D19",
+      "name": "Manage TB treatment interruptions",
+      "description": "- In clients who have had treatment interruption, the reason for the interruption should be addressed, such as medicine stock-outs, adverse events from medicines or need for additional patient or provider education. The duration, time on treatment at which the interruption occurs and the bacteriological status of the client before and after the interruption should be considered.\n- The health worker should take the opportunity to express support for the patient and their family and to address any issues that may require referral or treatment. Counselling should be offered in a way that makes the client feel empowered in their choice to continue the treatment.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [],
+      "requirements": [
+        "TB.FXNREQ.035"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "19"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1l4hzv1",
+      "activityId": "TB.D20",
+      "name": "Reassess for comorbidities",
+      "description": "- Some undetected comorbidities mimic treatment failure through clinical and chest radiographic deterioration that occurs simultaneously with repeated culture-negative and smear-negative results. These comorbidities (e.g. non-tuberculosis mycobacteria, fungal infections, lung infections or a pulmonary malignancy) should be diagnosed and treated appropriately. Illnesses that may decrease absorption of medicines (e.g. chronic diarrhoea) or may result in immune suppression (e.g. HIV infection) should also be excluded.\n- Additionally, people at the end of anti-TB treatment may also be assessed for mental health conditions or substance use disorders if they were previously identified as having mental health or substance use issues (as part of follow-up visit). – WHO operational handbook on tuberculosis. Module 6: Tuberculosis and comorbidities – Mental health conditions (40).",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [
+        "TB.Comm.DE.16",
+        "TB.Comm.DE.23",
+        "TB.Comm.DE.9"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "20"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0p9yb1a",
+      "activityId": "TB.D21",
+      "name": "Adjust the treatment",
+      "description": "- Based on the examination results, comorbidity assessment, adverse drug reaction evaluation and the patient’s medical condition, treatment composition or duration may require modifications. The health worker needs to assess treatment efficiency and adjust the treatment accordingly.\n- Reasons for adjusting the dosages of the medicine part of the TB treatment regimen might include weight gain, malabsorption and co-management of comorbidities.\n- Changing the treatment regimen should also be considered. If the decision taken is to change the treatment regimen, then the health worker will assess the capacity for initiating and continuing the new regimen. When capacity exists, all (previously described) activities needed to identify and initiate the appropriate (new) treatment regimen should be performed. A referral should be issued if capacity to further treat the patient does not exist. Treatment outcome should be reported for a failed treatment regimen.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "21"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0je4jx3",
+      "activityId": "TB.D22",
+      "name": "Issue a referral",
+      "description": "- Referrals may be needed for ongoing management of TB-associated disability and comorbidities on completion of TB treatment. This may include referral to mental health or substance use services, preventive and rehabilitation services, and social protection services to improve the health and social outcomes of people with TB. The preferences of the person with TB and comorbidities should be considered, for example, separate services may be appropriate to maintain continuity of care for pre-existing comorbidities, to provide highly specialized medical care, or may be preferred among people who experience stigma in relation to comorbidities, such as injecting drug use.\n- Patients with systemic adverse events might require referral to specialized care.\n- Change of treatment regimen may lead to referrals if capacity to further treat the patient does not exist in the current health-care facility.\n- In the absence of co-located services, clear referral pathways should be ensured.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "22"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_0ua7pea",
+      "activityId": "TB.D23",
+      "name": "Is the case de-notified because found not to have MTB?",
+      "description": "- Sometimes people are treated for TB disease, when in fact they do not have TB. This can occur, for example, because of delays in receiving laboratory speciation results, and it subsequently transpires that an individual does not have TB but is instead infected with a non-tuberculous mycobacterium. When such a situation occurs, records of a non-TB disease episode must be de-notified.\n- Reason for de-notification should be recorded.\n- Change of TB diagnosis (TB ruled out) can also happen before initiating TB treatment.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "23"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0o5cav2",
+      "activityId": "TB.D24",
+      "name": "Report the outcome(s)",
+      "description": "- It is important to monitor TB treatment outcomes both for individual care and programme management. TB treatment outcomes should be recorded and reported for each individual diagnosed with TB, regardless of whether treatment was started.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.D24.DE.1",
+        "TB.D24.DE.8"
+      ],
+      "requirements": [
+        "TB.FXNREQ.036"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "24"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1ygzp23",
+      "activityId": "TB.D25",
+      "name": "Offer other clinical and support services",
+      "description": "- The health worker might offer other relevant clinical and support services to the client if the consent for initiating TB treatment is not given or treatment could not be started because of other reasons. Nevertheless, a treatment outcome should be reported for these cases.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "25"
+      }
+    }
+  ],
+  "unmatched": [],
+  "unannotated": [
+    "Activity_02yrn55",
+    "Activity_06odb0h"
+  ]
+}

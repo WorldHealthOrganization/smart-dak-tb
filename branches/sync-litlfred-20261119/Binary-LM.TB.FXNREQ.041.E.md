@@ -1,0 +1,41 @@
+# LM.TB.FXNREQ.041.E - SMART DAK TB v1.0.2
+
+* [**Table of Contents**](toc.md)
+* [**Indices**](indices.md)
+* [**Artifact Index**](artifacts.md)
+* **LM.TB.FXNREQ.041.E**
+
+## Binary: LM.TB.FXNREQ.041.E
+
+```
+
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement",
+  "id": "LM.TB.FXNREQ.041.E",
+  "activity": " Determine TPT eligibility",
+  "actor": [
+    {
+      "reference": "ActorDefinition/healthworkere.g.nurse"
+    }
+  ],
+  "capabilityMarkdown": "To be able to use my clinical judgement when deciding if a client is eligible or not for TPT and enter the decision in the system",
+  "benefitMarkdown": "I do not prevent clients from taking TPT when they are eligible with clinical judgement (e.g. when the benefits of TPT outweighs the risks)",
+  "classification": [
+    {
+      "code": "E",
+      "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"
+    }
+  ]
+}
+
+```
+
+
+
+## Resource Binary Content
+
+application/fhir+json:
+
+```
+{snip}
+```

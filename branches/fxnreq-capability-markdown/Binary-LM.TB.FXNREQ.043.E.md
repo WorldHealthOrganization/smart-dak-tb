@@ -1,0 +1,41 @@
+# LM.TB.FXNREQ.043.E - SMART DAK TB v1.0.2
+
+* [**Table of Contents**](toc.md)
+* [**Indices**](indices.md)
+* [**Artifact Index**](artifacts.md)
+* **LM.TB.FXNREQ.043.E**
+
+## Binary: LM.TB.FXNREQ.043.E
+
+```
+
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement",
+  "id": "LM.TB.FXNREQ.043.E",
+  "activity": " Schedule the follow-up visit",
+  "actor": [
+    {
+      "reference": "ActorDefinition/healthworkere.g.nurse"
+    }
+  ],
+  "capabilityMarkdown": "To be able to indicate if the client agrees to receive notifications and their preferred communication channel (including sending reminders for the next follow-up visit)",
+  "benefitMarkdown": "I can send communications via the client's preferred communication channel",
+  "classification": [
+    {
+      "code": "E",
+      "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"
+    }
+  ]
+}
+
+```
+
+
+
+## Resource Binary Content
+
+application/fhir+json:
+
+```
+{snip}
+```

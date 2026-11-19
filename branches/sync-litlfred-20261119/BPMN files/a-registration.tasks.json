@@ -1,0 +1,211 @@
+{
+  "$schema": "dak-task-annotations/v1",
+  "bpmn": "a-registration.bpmn",
+  "process": "TB.A",
+  "document": "9789240086616-eng",
+  "heading": "REGISTRATION BUSINESS PROCESS NOTES AND ANNOTATIONS",
+  "tasks": [
+    {
+      "bpmnTask": "Gateway_04mg082",
+      "activityId": "TB.A1",
+      "name": "Was the visit initiated by the client or by the provider?",
+      "description": "- Depending on the reasons that triggered the encounter, the starting activity could be represented either by client’s arrival at the health-care facility or by the health worker’s arrival at the client’s location. Client’s arrival at the health-care facility could also happen as part of a provider-initiated pathway (e.g. client referred for additional screening activities, people living with HIV [PLHIV] screened for TB by the health worker in the HIV clinic).\n- Patient-initiated health-care pathway: The patient-initiated pathway to TB diagnosis relies on patients seeking care and on health systems to respond quickly and appropriately.\n- Provider-initiated TB screening pathway: The provider-initiated TB screening pathway systematically targets people at high risk of exposure to or of developing TB disease and screens them by assessing symptoms, using tests, examinations or other procedures to identify those who might have TB, following up with a diagnostic test and additional clinical assessments to make a definite diagnosis. (systematic screening for tuberculosis disease) (31).",
+      "personas": [
+        "Client"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "1"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0cxqkji",
+      "activityId": "TB.A2",
+      "name": "Client arrives at facility",
+      "description": "- The client arrives at the health-care facility and notifies the outpatient department of their arrival to be further guided.\n- The client could already be registered at the health-care facility for another service, for example, HIV, diabetes.\n- When digital tools, such as video-supported treatment, are used for communicating with the client (e.g. follow-up checks) this activity could be initiation of a video call, phone call or other appropriate digital interaction.",
+      "personas": [
+        "Client"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "2"
+      }
+    },
+    {
+      "bpmnTask": "Activity_03c7qb3",
+      "activityId": "TB.A3",
+      "name": "Arrive at the client’s location",
+      "description": "- The health worker arrives at the client’s location.",
+      "personas": [
+        "Health worker / data entry clerk / medical office receptionist"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "3"
+      }
+    },
+    {
+      "bpmnTask": "Activity_10c11xl",
+      "activityId": "TB.A4",
+      "name": "Gather the client’s details",
+      "description": "- Ask the client whether they have previously been issued with a unique identifier.\n- Does the client have a card, number or barcode?\n- Does client say they are a returning or referred client?\n- If a referral, check for the referral slip or data from the community.\n- Determine whether the client is new to the health-care facility or health post.\n- For returning clients, details will be retrieved from the registry of clients or, if possible, from a central client registry.",
+      "personas": [
+        "Health worker / data entry clerk / medical office receptionist"
+      ],
+      "dataElements": [
+        "TB.A4.DE.1",
+        "TB.A4.DE.2",
+        "TB.A4.DE.3",
+        "TB.A4.DE.4",
+        "TB.A4.DE.5"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "4"
+      }
+    },
+    {
+      "bpmnTask": "Activity_13a7xa0",
+      "activityId": "TB.A5",
+      "name": "Search for the client record",
+      "description": "- This search process can be done through several different means depending on what mechanisms are available in-country. For example, clients can be searched for by using their name, unique identifier, a quick response (QR) code or even biometrics.",
+      "personas": [
+        "Health worker / data entry clerk / medical office receptionist"
+      ],
+      "dataElements": [],
+      "requirements": [
+        "TB.FXNREQ.001",
+        "TB.FXNREQ.002",
+        "TB.FXNREQ.003",
+        "TB.FXNREQ.004",
+        "TB.FXNREQ.005",
+        "TB.FXNREQ.006"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "5"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_1eyrt11",
+      "activityId": "TB.A6",
+      "name": "Has the correct client record been identified?",
+      "description": "- If multiple records are found for the client, consider merging or deleting duplicate records, according to the HMIS guidelines.\n- It is also possible for the same episode of TB disease in a given individual to be recorded multiple times in the system. Any duplicate records of the same episode of TB must be removed (de-notify duplicate case) to avoid over reporting.",
+      "personas": [
+        "Health worker / data entry clerk / medical office receptionist"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "6"
+      }
+    },
+    {
+      "bpmnTask": "Activity_11uyob2",
+      "activityId": "TB.A7",
+      "name": "Create a new client record",
+      "description": "- Issue a unique identifier if used and possible at the facility.",
+      "personas": [
+        "Health worker / data entry clerk / medical office receptionist"
+      ],
+      "dataElements": [
+        "TB.A7.DE.1",
+        "TB.A7.DE.16",
+        "TB.A7.DE.17",
+        "TB.A7.DE.2",
+        "TB.A7.DE.22",
+        "TB.A7.DE.23",
+        "TB.A7.DE.24",
+        "TB.A7.DE.25",
+        "TB.A7.DE.3",
+        "TB.A7.DE.30",
+        "TB.A7.DE.35",
+        "TB.A7.DE.36",
+        "TB.A7.DE.37",
+        "TB.A7.DE.38",
+        "TB.A7.DE.4",
+        "TB.A7.DE.48"
+      ],
+      "requirements": [
+        "TB.FXNREQ.007",
+        "TB.FXNREQ.008",
+        "TB.FXNREQ.009",
+        "TB.FXNREQ.010",
+        "TB.FXNREQ.011"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "7"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1t4yclp",
+      "activityId": "TB.A8",
+      "name": "Validate the client details",
+      "description": "- Review and update client record. – 8.1. Review the sociodemographic data with the client Review the client’s non-clinical information, that is, name, address, contact information, etc. – 8.2. Is an update needed? Has the client moved? Have they changed their contact information or has any other sociodemographic information changed? – 8.3. Update the client details The client can provide updated information if they have moved or changed their details recently.\n- Merge or update client records.\n- This activity could also happen during other TB-specific processes, for example, screening, diagnosis, TB treatment, TPT.",
+      "personas": [
+        "Health worker / data entry clerk / medical office receptionist"
+      ],
+      "dataElements": [],
+      "requirements": [
+        "TB.FXNREQ.012",
+        "TB.FXNREQ.013",
+        "TB.FXNREQ.014",
+        "TB.FXNREQ.015",
+        "TB.FXNREQ.016",
+        "TB.FXNREQ.017"
+      ],
+      "decisionTables": [],
+      "matchedBy": "name",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "8"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1nrr9x7",
+      "activityId": "TB.A9",
+      "name": "Checking in the client",
+      "description": "- Record the client’s updated details in the client registry.\n- Add the client to the relevant queue for TB-related services. In case of patient-initiated flow, new clients will be redirected to “C. Diagnosis” while existing clients could continue the workflow with any of “C. Diagnosis”, “D. TB treatment” or “E. TPT business processes”. For new clients following a provider-initiated flow, the workflow continues with “B. Screening” while existing ones might be redirected to any of “B. Screening”, “C. Diagnosis”, “D. TB treatment” or “E. TPT business processes”.\n- Send or share intake confirmation to or with the referring facility as warranted.",
+      "personas": [
+        "Health worker / data entry clerk / medical office receptionist"
+      ],
+      "dataElements": [],
+      "requirements": [
+        "TB.FXNREQ.018",
+        "TB.FXNREQ.019",
+        "TB.FXNREQ.020"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "9"
+      }
+    }
+  ],
+  "unmatched": [],
+  "unannotated": []
+}

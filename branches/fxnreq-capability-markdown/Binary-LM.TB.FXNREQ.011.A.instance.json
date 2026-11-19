@@ -1,0 +1,18 @@
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement",
+  "id": "LM.TB.FXNREQ.011.A",
+  "activity": " Create a new client record",
+  "actor": [
+    {
+      "reference": "ActorDefinition/healthworkerordataentryclerkormedicalofficereceptionist"
+    }
+  ],
+  "capabilityMarkdown": "To enter a temporary identification in situations when full identity is unknown",
+  "benefitMarkdown": "I can proceed with registration and update the information later on, once identity information is provided",
+  "classification": [
+    {
+      "code": "A",
+      "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"
+    }
+  ]
+}

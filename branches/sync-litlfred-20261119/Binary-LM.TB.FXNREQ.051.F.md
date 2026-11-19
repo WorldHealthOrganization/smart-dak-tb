@@ -1,0 +1,41 @@
+# LM.TB.FXNREQ.051.F - SMART DAK TB v1.0.2
+
+* [**Table of Contents**](toc.md)
+* [**Indices**](indices.md)
+* [**Artifact Index**](artifacts.md)
+* **LM.TB.FXNREQ.051.F**
+
+## Binary: LM.TB.FXNREQ.051.F
+
+```
+
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement",
+  "id": "LM.TB.FXNREQ.051.F",
+  "activity": " Receive the client",
+  "actor": [
+    {
+      "reference": "ActorDefinition/healthworkere.g.nurse"
+    }
+  ],
+  "capabilityMarkdown": "To know what care the client received at the referral facility ",
+  "benefitMarkdown": "I can provide appropriate care if my client comes back to my facility",
+  "classification": [
+    {
+      "code": "F",
+      "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"
+    }
+  ]
+}
+
+```
+
+
+
+## Resource Binary Content
+
+application/fhir+json:
+
+```
+{snip}
+```

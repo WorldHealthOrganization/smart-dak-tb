@@ -1,0 +1,924 @@
+[{
+  "id" : "healthinformationofficer",
+  "type" : "ActorDefinition",
+  "url" : "http://smart.who.int/dak-tb/ActorDefinition/healthinformationofficer",
+  "version" : "1.0.2",
+  "name" : "Health information officer"
+},
+{
+  "id" : "healthworkere.g.nurse",
+  "type" : "ActorDefinition",
+  "url" : "http://smart.who.int/dak-tb/ActorDefinition/healthworkere.g.nurse",
+  "version" : "1.0.2",
+  "name" : "Health worker (e.g. nurse)"
+},
+{
+  "id" : "healthworkerordataentryclerk",
+  "type" : "ActorDefinition",
+  "url" : "http://smart.who.int/dak-tb/ActorDefinition/healthworkerordataentryclerk",
+  "version" : "1.0.2",
+  "name" : "Health worker or data entry clerk"
+},
+{
+  "id" : "healthworkerordataentryclerkormedicalofficereceptionist",
+  "type" : "ActorDefinition",
+  "url" : "http://smart.who.int/dak-tb/ActorDefinition/healthworkerordataentryclerkormedicalofficereceptionist",
+  "version" : "1.0.2",
+  "name" : "Health worker or data entry clerk or medical office receptionist"
+},
+{
+  "id" : "FXREQBusinessProcesses",
+  "type" : "CodeSystem",
+  "url" : "http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses",
+  "version" : "1.0.2",
+  "name" : "FXREQBusinessProcesses"
+},
+{
+  "id" : "FXREQCategories",
+  "type" : "CodeSystem",
+  "url" : "http://smart.who.int/dak-tb/CodeSystem/FXREQCategories",
+  "version" : "1.0.2",
+  "name" : "FXREQCategories"
+},
+{
+  "id" : "smart.who.int.dak-tb",
+  "type" : "ImplementationGuide",
+  "url" : "http://smart.who.int/dak-tb/ImplementationGuide/smart.who.int.dak-tb",
+  "version" : "1.0.2",
+  "name" : "DakTb"
+},
+{
+  "id" : "TB.FXNREQ.001.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.001.A",
+  "version" : "1.0.2",
+  "name" : " Search for the client record"
+},
+{
+  "id" : "TB.FXNREQ.002.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.002.A",
+  "version" : "1.0.2",
+  "name" : " Search for the client record"
+},
+{
+  "id" : "TB.FXNREQ.003.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.003.A",
+  "version" : "1.0.2",
+  "name" : " Search for the client record"
+},
+{
+  "id" : "TB.FXNREQ.004.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.004.A",
+  "version" : "1.0.2",
+  "name" : " Search for the client record"
+},
+{
+  "id" : "TB.FXNREQ.005.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.005.A",
+  "version" : "1.0.2",
+  "name" : " Search for the client record"
+},
+{
+  "id" : "TB.FXNREQ.006.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.006.A",
+  "version" : "1.0.2",
+  "name" : " Search for the client record"
+},
+{
+  "id" : "TB.FXNREQ.007.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.007.A",
+  "version" : "1.0.2",
+  "name" : " Create a new client record"
+},
+{
+  "id" : "TB.FXNREQ.008.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.008.A",
+  "version" : "1.0.2",
+  "name" : " Create a new client record"
+},
+{
+  "id" : "TB.FXNREQ.009.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.009.A",
+  "version" : "1.0.2",
+  "name" : " Create a new client record"
+},
+{
+  "id" : "TB.FXNREQ.010.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.010.A",
+  "version" : "1.0.2",
+  "name" : " Create a new client record"
+},
+{
+  "id" : "TB.FXNREQ.011.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.011.A",
+  "version" : "1.0.2",
+  "name" : " Create a new client record"
+},
+{
+  "id" : "TB.FXNREQ.012.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.012.A",
+  "version" : "1.0.2",
+  "name" : " Validate the client details"
+},
+{
+  "id" : "TB.FXNREQ.013.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.013.A",
+  "version" : "1.0.2",
+  "name" : " Validate the client details"
+},
+{
+  "id" : "TB.FXNREQ.014.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.014.A",
+  "version" : "1.0.2",
+  "name" : " Validate the client details"
+},
+{
+  "id" : "TB.FXNREQ.015.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.015.A",
+  "version" : "1.0.2",
+  "name" : " Validate the client details"
+},
+{
+  "id" : "TB.FXNREQ.016.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.016.A",
+  "version" : "1.0.2",
+  "name" : " Validate the client details"
+},
+{
+  "id" : "TB.FXNREQ.017.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.017.A",
+  "version" : "1.0.2",
+  "name" : " Validate the client details"
+},
+{
+  "id" : "TB.FXNREQ.018.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.018.A",
+  "version" : "1.0.2",
+  "name" : " Check in the client"
+},
+{
+  "id" : "TB.FXNREQ.019.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.019.A",
+  "version" : "1.0.2",
+  "name" : " Check in the client"
+},
+{
+  "id" : "TB.FXNREQ.020.A",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.020.A",
+  "version" : "1.0.2",
+  "name" : " Check in the client"
+},
+{
+  "id" : "TB.FXNREQ.021.B",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.021.B",
+  "version" : "1.0.2",
+  "name" : " Provide pre-screening information and ask for consent"
+},
+{
+  "id" : "TB.FXNREQ.022.B",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.022.B",
+  "version" : "1.0.2",
+  "name" : " Provide pre-screening information and ask for consent"
+},
+{
+  "id" : "TB.FXNREQ.023.B",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.023.B",
+  "version" : "1.0.2",
+  "name" : " Assess medical history and risk factors"
+},
+{
+  "id" : "TB.FXNREQ.024.B",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.024.B",
+  "version" : "1.0.2",
+  "name" : " Determine the screening algorithm"
+},
+{
+  "id" : "TB.FXNREQ.025.B",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.025.B",
+  "version" : "1.0.2",
+  "name" : " Perform the TB screening"
+},
+{
+  "id" : "TB.FXNREQ.026.C",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.026.C",
+  "version" : "1.0.2",
+  "name" : " Carry out clinical examination"
+},
+{
+  "id" : "TB.FXNREQ.027.C",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.027.C",
+  "version" : "1.0.2",
+  "name" : " Assess medical history and risk factors"
+},
+{
+  "id" : "TB.FXNREQ.028.C",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.028.C",
+  "version" : "1.0.2",
+  "name" : "C4 Assess history of prior TB treatment"
+},
+{
+  "id" : "TB.FXNREQ.029.C",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.029.C",
+  "version" : "1.0.2",
+  "name" : " Interpret the follow-on test(s) results"
+},
+{
+  "id" : "TB.FXNREQ.030.D",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.030.D",
+  "version" : "1.0.2",
+  "name" : " Determine the regimen designed to treat rifampicin-resistant TB"
+},
+{
+  "id" : "TB.FXNREQ.031.D",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.031.D",
+  "version" : "1.0.2",
+  "name" : " Determine the regimen designed to treat rifampicin-resistant TB"
+},
+{
+  "id" : "TB.FXNREQ.032.D",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.032.D",
+  "version" : "1.0.2",
+  "name" : " Initiate the treatment and discuss adherence"
+},
+{
+  "id" : "TB.FXNREQ.033.D",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.033.D",
+  "version" : "1.0.2",
+  "name" : " Develop monitoring examinations and a schedule of follow-up visits"
+},
+{
+  "id" : "TB.FXNREQ.034.D",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.034.D",
+  "version" : "1.0.2",
+  "name" : " Perform the clinical assessment"
+},
+{
+  "id" : "TB.FXNREQ.035.D",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.035.D",
+  "version" : "1.0.2",
+  "name" : " Manage TB treatment interruptions"
+},
+{
+  "id" : "TB.FXNREQ.036.D",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.036.D",
+  "version" : "1.0.2",
+  "name" : " Report the outcome(s)"
+},
+{
+  "id" : "TB.FXNREQ.037.E",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.037.E",
+  "version" : "1.0.2",
+  "name" : " Offer TB prevention counselling"
+},
+{
+  "id" : "TB.FXNREQ.038.E",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.038.E",
+  "version" : "1.0.2",
+  "name" : " Make an informed decision"
+},
+{
+  "id" : "TB.FXNREQ.039.E",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.039.E",
+  "version" : "1.0.2",
+  "name" : " Determine whether TB infection testing is relevant"
+},
+{
+  "id" : "TB.FXNREQ.040.E",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.040.E",
+  "version" : "1.0.2",
+  "name" : " Determine TPT eligibility"
+},
+{
+  "id" : "TB.FXNREQ.041.E",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.041.E",
+  "version" : "1.0.2",
+  "name" : " Determine TPT eligibility"
+},
+{
+  "id" : "TB.FXNREQ.042.E",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.042.E",
+  "version" : "1.0.2",
+  "name" : " Initiate TPT and develop an adherence plan"
+},
+{
+  "id" : "TB.FXNREQ.043.E",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.043.E",
+  "version" : "1.0.2",
+  "name" : " Schedule the follow-up visit"
+},
+{
+  "id" : "TB.FXNREQ.044.F",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.044.F",
+  "version" : "1.0.2",
+  "name" : " Stabilize the client and give pre-referral treatment"
+},
+{
+  "id" : "TB.FXNREQ.045.F",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.045.F",
+  "version" : "1.0.2",
+  "name" : " Identify and discuss referral location options"
+},
+{
+  "id" : "TB.FXNREQ.046.F",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.046.F",
+  "version" : "1.0.2",
+  "name" : " Contact referral facility"
+},
+{
+  "id" : "TB.FXNREQ.047.F",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.047.F",
+  "version" : "1.0.2",
+  "name" : " Contact referral facility"
+},
+{
+  "id" : "TB.FXNREQ.048.F",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.048.F",
+  "version" : "1.0.2",
+  "name" : " Provide information to the receiving facility"
+},
+{
+  "id" : "TB.FXNREQ.049.F",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.049.F",
+  "version" : "1.0.2",
+  "name" : " Provide information to the receiving facility"
+},
+{
+  "id" : "TB.FXNREQ.050.F",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.050.F",
+  "version" : "1.0.2",
+  "name" : "  Check whether the client can be accommodated"
+},
+{
+  "id" : "TB.FXNREQ.051.F",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.051.F",
+  "version" : "1.0.2",
+  "name" : " Receive the client"
+},
+{
+  "id" : "TB.FXNREQ.052.G",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.052.G",
+  "version" : "1.0.2",
+  "name" : " Generate aggregate reports"
+},
+{
+  "id" : "TB.FXNREQ.053.G",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.FXNREQ.053.G",
+  "version" : "1.0.2",
+  "name" : " Analyse and interpret the reports"
+},
+{
+  "id" : "TB.NFXNREQ.001",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.001",
+  "version" : "1.0.2",
+  "name" : "Provide password-protected access for authorized users"
+},
+{
+  "id" : "TB.NFXNREQ.002",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.002",
+  "version" : "1.0.2",
+  "name" : "Provide a means to ensure confidentiality and privacy of personal health information"
+},
+{
+  "id" : "TB.NFXNREQ.003",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.003",
+  "version" : "1.0.2",
+  "name" : "Provide the ability for allowed users to view confidential data"
+},
+{
+  "id" : "TB.NFXNREQ.004",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.004",
+  "version" : "1.0.2",
+  "name" : "Anonymize data that are exported from the system"
+},
+{
+  "id" : "TB.NFXNREQ.005",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.005",
+  "version" : "1.0.2",
+  "name" : "Prevent remembering username and password"
+},
+{
+  "id" : "TB.NFXNREQ.006",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.006",
+  "version" : "1.0.2",
+  "name" : "Automatically log out the user after a specified time of inactivity"
+},
+{
+  "id" : "TB.NFXNREQ.007",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.007",
+  "version" : "1.0.2",
+  "name" : "Provide encrypted communication between components"
+},
+{
+  "id" : "TB.NFXNREQ.008",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.008",
+  "version" : "1.0.2",
+  "name" : "Provide secure data transmission methods to prevent others from seeing data sent from \none computer to another by using data encryption and private networks across public networks"
+},
+{
+  "id" : "TB.NFXNREQ.009",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.009",
+  "version" : "1.0.2",
+  "name" : "Notify the user to change their password the first time they log in"
+},
+{
+  "id" : "TB.NFXNREQ.010",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.010",
+  "version" : "1.0.2",
+  "name" : "Adhere to complex password requirements"
+},
+{
+  "id" : "TB.NFXNREQ.011",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.011",
+  "version" : "1.0.2",
+  "name" : "Provide a mechanism to securely change a user's password"
+},
+{
+  "id" : "TB.NFXNREQ.012",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.012",
+  "version" : "1.0.2",
+  "name" : "Notify the user of a password change to their account"
+},
+{
+  "id" : "TB.NFXNREQ.013",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.013",
+  "version" : "1.0.2",
+  "name" : "Reset a user's password in a secure manner"
+},
+{
+  "id" : "TB.NFXNREQ.014",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.014",
+  "version" : "1.0.2",
+  "name" : "Lock a user out after a specified number of wrong password attempts"
+},
+{
+  "id" : "TB.NFXNREQ.015",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.015",
+  "version" : "1.0.2",
+  "name" : "Notify a user if their account is locked due to wrong password attempts"
+},
+{
+  "id" : "TB.NFXNREQ.016",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.016",
+  "version" : "1.0.2",
+  "name" : "Provide role-based access to the system: users of the system get access on a need-to-know and need-to-use basis"
+},
+{
+  "id" : "TB.NFXNREQ.017",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.017",
+  "version" : "1.0.2",
+  "name" : "Log system logins and logouts"
+},
+{
+  "id" : "TB.NFXNREQ.018",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.018",
+  "version" : "1.0.2",
+  "name" : "Record all authentication violations"
+},
+{
+  "id" : "TB.NFXNREQ.019",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.019",
+  "version" : "1.0.2",
+  "name" : "Log all activities performed by the user, including date and time stamp"
+},
+{
+  "id" : "TB.NFXNREQ.020",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.020",
+  "version" : "1.0.2",
+  "name" : "Log access to views of individual client records"
+},
+{
+  "id" : "TB.NFXNREQ.021",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.021",
+  "version" : "1.0.2",
+  "name" : "Log access to data summaries, reports, analysis and visualization features"
+},
+{
+  "id" : "TB.NFXNREQ.022",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.022",
+  "version" : "1.0.2",
+  "name" : "Log exchange of data with other systems"
+},
+{
+  "id" : "TB.NFXNREQ.023",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.023",
+  "version" : "1.0.2",
+  "name" : "Generate analysis of the use of different system features and reports"
+},
+{
+  "id" : "TB.NFXNREQ.024",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.024",
+  "version" : "1.0.2",
+  "name" : "Log all data and system errors"
+},
+{
+  "id" : "TB.NFXNREQ.025",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.025",
+  "version" : "1.0.2",
+  "name" : "Allow user with permission to create a new user and temporary password"
+},
+{
+  "id" : "TB.NFXNREQ.026",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.026",
+  "version" : "1.0.2",
+  "name" : "Provide role-based access"
+},
+{
+  "id" : "TB.NFXNREQ.027",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.027",
+  "version" : "1.0.2",
+  "name" : "Allow roles to be associated with specific geographical areas or health-care facilities"
+},
+{
+  "id" : "TB.NFXNREQ.028",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.028",
+  "version" : "1.0.2",
+  "name" : "Allow cascading user management and assignment of roles"
+},
+{
+  "id" : "TB.NFXNREQ.029",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.029",
+  "version" : "1.0.2",
+  "name" : "Allow user to change their own password"
+},
+{
+  "id" : "TB.NFXNREQ.030",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.030",
+  "version" : "1.0.2",
+  "name" : "Allow admin user to request password reset"
+},
+{
+  "id" : "TB.NFXNREQ.031",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.031",
+  "version" : "1.0.2",
+  "name" : "Notify the user to regularly change their password"
+},
+{
+  "id" : "TB.NFXNREQ.032",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.032",
+  "version" : "1.0.2",
+  "name" : "Allow each user to be assigned to one or more roles"
+},
+{
+  "id" : "TB.NFXNREQ.033",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.033",
+  "version" : "1.0.2",
+  "name" : "Support definitions of unlimited roles and assigned levels of access, viewing, entry, editing and auditing"
+},
+{
+  "id" : "TB.NFXNREQ.034",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.034",
+  "version" : "1.0.2",
+  "name" : "Provide a unique version number for each revision"
+},
+{
+  "id" : "TB.NFXNREQ.035",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.035",
+  "version" : "1.0.2",
+  "name" : "Enable earlier versions of a record to be recoverable"
+},
+{
+  "id" : "TB.NFXNREQ.036",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.036",
+  "version" : "1.0.2",
+  "name" : "Enable deployment in an environment subject to power loss"
+},
+{
+  "id" : "TB.NFXNREQ.037",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.037",
+  "version" : "1.0.2",
+  "name" : "Work in an environment that is subject to loss of connectivity"
+},
+{
+  "id" : "TB.NFXNREQ.038",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.038",
+  "version" : "1.0.2",
+  "name" : "Generate IDs that are unique across different installations or sites"
+},
+{
+  "id" : "TB.NFXNREQ.039",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.039",
+  "version" : "1.0.2",
+  "name" : "Report version number when saving data to the database"
+},
+{
+  "id" : "TB.NFXNREQ.040",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.040",
+  "version" : "1.0.2",
+  "name" : "Be designed to be flexible enough to accommodate necessary changes in the future"
+},
+{
+  "id" : "TB.NFXNREQ.041",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.041",
+  "version" : "1.0.2",
+  "name" : "Allow for offline and online functionality"
+},
+{
+  "id" : "TB.NFXNREQ.042",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.042",
+  "version" : "1.0.2",
+  "name" : "Show the number of records that are not yet synchronized"
+},
+{
+  "id" : "TB.NFXNREQ.043",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.043",
+  "version" : "1.0.2",
+  "name" : "Have the ability to easily back up information"
+},
+{
+  "id" : "TB.NFXNREQ.044",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.044",
+  "version" : "1.0.2",
+  "name" : "Warn user if no valid back-up for more than a predefined number of days"
+},
+{
+  "id" : "TB.NFXNREQ.045",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.045",
+  "version" : "1.0.2",
+  "name" : "Must have the ability to store images and other unstructured data"
+},
+{
+  "id" : "TB.NFXNREQ.046",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.046",
+  "version" : "1.0.2",
+  "name" : "Scalable to accommodate new demands"
+},
+{
+  "id" : "TB.NFXNREQ.047",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.047",
+  "version" : "1.0.2",
+  "name" : "Be able to accommodate at least [x number of]a health-care facilities"
+},
+{
+  "id" : "TB.NFXNREQ.048",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.048",
+  "version" : "1.0.2",
+  "name" : "Be able to accommodate at least [x number of]a concurrent users"
+},
+{
+  "id" : "TB.NFXNREQ.049",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.049",
+  "version" : "1.0.2",
+  "name" : "Be user-friendly for people with low computer literacy"
+},
+{
+  "id" : "TB.NFXNREQ.050",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.050",
+  "version" : "1.0.2",
+  "name" : "Provide informative error messages and tooltips"
+},
+{
+  "id" : "TB.NFXNREQ.051",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.051",
+  "version" : "1.0.2",
+  "name" : "Alert the user when navigating away from a form without saving"
+},
+{
+  "id" : "TB.NFXNREQ.052",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.052",
+  "version" : "1.0.2",
+  "name" : "Support real-time data entry validation and feedback to prevent data entry errors from being recorded"
+},
+{
+  "id" : "TB.NFXNREQ.053",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.053",
+  "version" : "1.0.2",
+  "name" : "Simplify data recording through predefined drop-down menus or searchable lists, radio buttons, check boxes"
+},
+{
+  "id" : "TB.NFXNREQ.054",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.054",
+  "version" : "1.0.2",
+  "name" : "Support multiple languages"
+},
+{
+  "id" : "TB.NFXNREQ.055",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.055",
+  "version" : "1.0.2",
+  "name" : "Use industry-standard user interface practices and apply them consistently throughout the system"
+},
+{
+  "id" : "TB.NFXNREQ.056",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.056",
+  "version" : "1.0.2",
+  "name" : "Easy to learn and intuitive to enable user to navigate between pages"
+},
+{
+  "id" : "TB.NFXNREQ.057",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.057",
+  "version" : "1.0.2",
+  "name" : "Provide guidance to users to better support clinical guidelines and best clinical practices"
+},
+{
+  "id" : "TB.NFXNREQ.058",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.058",
+  "version" : "1.0.2",
+  "name" : "Be reliable and robust (minimize the number of system crashes)"
+},
+{
+  "id" : "TB.NFXNREQ.059",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.059",
+  "version" : "1.0.2",
+  "name" : "Adjust display to fit small screens (e.g. mobile phones)"
+},
+{
+  "id" : "TB.NFXNREQ.060",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.060",
+  "version" : "1.0.2",
+  "name" : "Configure the system centrally"
+},
+{
+  "id" : "TB.NFXNREQ.061",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.061",
+  "version" : "1.0.2",
+  "name" : "Configure business rules in line with guidelines and standard operating procedures"
+},
+{
+  "id" : "TB.NFXNREQ.062",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.062",
+  "version" : "1.0.2",
+  "name" : "Configure error messages"
+},
+{
+  "id" : "TB.NFXNREQ.063",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.063",
+  "version" : "1.0.2",
+  "name" : "Configure workflows and business rules to accommodate differences between facilities"
+},
+{
+  "id" : "TB.NFXNREQ.064",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.064",
+  "version" : "1.0.2",
+  "name" : "Communicate with external systems through mediators"
+},
+{
+  "id" : "TB.NFXNREQ.065",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.065",
+  "version" : "1.0.2",
+  "name" : "Provide access to data through application programming interfaces"
+},
+{
+  "id" : "TB.NFXNREQ.066",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.066",
+  "version" : "1.0.2",
+  "name" : "Be interoperable with external systems through mediators"
+},
+{
+  "id" : "TB.NFXNREQ.067",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.067",
+  "version" : "1.0.2",
+  "name" : "Link with insurance systems to verify eligibility and submit claims"
+},
+{
+  "id" : "TB.NFXNREQ.068",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.068",
+  "version" : "1.0.2",
+  "name" : "Exchange data with other approved systems"
+},
+{
+  "id" : "TB.NFXNREQ.069",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.069",
+  "version" : "1.0.2",
+  "name" : "Accept data from multiple input methods including paper and geocoding (GPS)"
+},
+{
+  "id" : "TB.NFXNREQ.070",
+  "type" : "Requirements",
+  "url" : "http://smart.who.int/dak-tb/Requirements/TB.NFXNREQ.070",
+  "version" : "1.0.2",
+  "name" : "Allow for data exchange and efficient synchronization across multiple facilities and points of service when the Internet is available, even when it is intermittent and slow"
+},
+{
+  "id" : "FXREQBusinessProcesses",
+  "type" : "ValueSet",
+  "url" : "http://smart.who.int/dak-tb/ValueSet/FXREQBusinessProcesses",
+  "version" : "1.0.2",
+  "name" : "FXREQBusinessProcesses"
+},
+{
+  "id" : "FXREQCategories",
+  "type" : "ValueSet",
+  "url" : "http://smart.who.int/dak-tb/ValueSet/FXREQCategories",
+  "version" : "1.0.2",
+  "name" : "FXREQCategories"
+}]

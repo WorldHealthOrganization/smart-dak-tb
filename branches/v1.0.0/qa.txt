@@ -1,0 +1,29 @@
+SMART_WHO_INT_DAK_TB : Validation Results
+=========================================
+
+err = 2, warn = 5, info = 0
+IG Publisher Version: 1.6.6
+Generated Tue May 07 11:52:42 UTC 2024. FHIR version 4.0.1 for smart.who.int.dak.tb#0.9.9 (canonical = http://smart.who.int/dak-tb)
+ Build Errors : 11 / 4 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.dak.tb : 2 / 1 / 1
+</table>
+== n/a ==
+ERROR: /github/workspace/output/decision-logic.html#/html/body/div/div/div/div/div/p/a at Line 278, column 14: The link 'TB DAK_decision-support logic.xlsx' for "TB DAK_decision-support logic.xlsx" cannot be resolved
+ERROR: /github/workspace/output/decision-logic.html#/html/body/div/div/div/div/div/p/a at Line 279, column 11: The link 'smart.who.int/dak-tb/v0.9.9/TB DAK_decision-support logic.xlsx' for "TB DAK_decision-support logic.xlsx" cannot be resolved
+ERROR: /github/workspace/output/dictionary.html#/html/body/div/div/div/div/div/p/a at Line 278, column 14: The link 'TB DAK_core data dictionary.xlsx' for "TB DAK_core data dictionary.xlsx" cannot be resolved
+ERROR: /github/workspace/output/dictionary.html#/html/body/div/div/div/div/div/p/a at Line 279, column 11: The link 'smart.who.int/dak-tb/v0.9.9/TB DAK_core data dictionary.xlsx' for "TB DAK_core data dictionary.xlsx" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 345, column 9: The link 'smart.who.int/dak/tb/dictionary' for "Link to core data dictionary" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 348, column 9: The link 'smart.who.int/dak/tb/decision-logic' for "Link to decision support logic" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 351, column 9: The link 'smart.who.int/dak/tb/scheduling-logic' for "Link to scheduling logic" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 354, column 9: The link 'smart.who.int/dak/tb/indicators' for "Link to indicators table" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 357, column 9: The link 'smart.who.int/dak/tb/system-requirements' for "Link to functional and non functional requirements" cannot be resolved
+ERROR: /github/workspace/output/indicators.html#/html/body/div/div/div/div/div/p/a at Line 278, column 14: The link 'TB DAK_indicators.xlsx' for "TB DAK_indicators.xlsx" cannot be resolved
+ERROR: /github/workspace/output/indicators.html#/html/body/div/div/div/div/div/p/a at Line 279, column 11: The link 'smart.who.int/dak-tb/v0.9.9/TB DAK_indicators.xlsx' for "TB DAK_indicators.xlsx" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-smart.who.int.dak.tb.json ==
+ERROR: ImplementationGuide/smart.who.int.dak.tb: ImplementationGuide.meta.profile[0]: Canonical URLs must be absolute URLs if they are not fragment references (SMARTImplementationGuide)
+ERROR: ImplementationGuide/smart.who.int.dak.tb: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
+WARNING: ImplementationGuide/smart.who.int.dak.tb: ImplementationGuide.meta.profile[0]: Profile reference 'SMARTImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles

@@ -1,0 +1,41 @@
+# LM.TB.FXNREQ.023.B - SMART DAK TB v1.0.2
+
+* [**Table of Contents**](toc.md)
+* [**Indices**](indices.md)
+* [**Artifact Index**](artifacts.md)
+* **LM.TB.FXNREQ.023.B**
+
+## Binary: LM.TB.FXNREQ.023.B
+
+```
+
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement",
+  "id": "LM.TB.FXNREQ.023.B",
+  "activity": " Assess medical history and risk factors",
+  "actor": [
+    {
+      "reference": "ActorDefinition/healthworkere.g.nurse"
+    }
+  ],
+  "capabilityMarkdown": "To be able to capture or update client information related to medical history and risk factors for TB",
+  "benefitMarkdown": "I make sure that new relevant information is not missed",
+  "classification": [
+    {
+      "code": "B",
+      "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"
+    }
+  ]
+}
+
+```
+
+
+
+## Resource Binary Content
+
+application/fhir+json:
+
+```
+{snip}
+```

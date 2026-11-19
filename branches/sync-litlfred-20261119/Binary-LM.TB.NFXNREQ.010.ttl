@@ -1,0 +1,20 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://smart.who.int/dak-tb/Binary/LM.TB.NFXNREQ.010> a fhir:Binary ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "LM.TB.NFXNREQ.010"] ;
+  fhir:Binary.contentType [ fhir:value "application/fhir+json"] ;
+  fhir:Binary.data [ fhir:value "ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL3NtYXJ0Lndoby5pbnQvYmFzZS9TdHJ1Y3R1cmVEZWZpbml0aW9uL05vbkZ1bmN0aW9uYWxSZXF1aXJlbWVudCIsCiAgImlkIjogIkxNLlRCLk5GWE5SRVEuMDEwIiwKICAicmVxdWlyZW1lbnQiOiAiQWRoZXJlIHRvIGNvbXBsZXggcGFzc3dvcmQgcmVxdWlyZW1lbnRzIiwKICAiY2F0ZWdvcnkiOiB7CiAgICAiY29kZSI6ICJTZWN1cml0eWF1dGhlbnRpY2F0aW9uIiwKICAgICJzeXN0ZW0iOiAiaHR0cDovL3NtYXJ0Lndoby5pbnQvZGFrLXRiL0NvZGVTeXN0ZW0vRlhSRVFDYXRlZ29yaWVzIgogIH0KfQo="^^xsd:base64Binary] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://smart.who.int/dak-tb/Binary/LM.TB.NFXNREQ.010.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

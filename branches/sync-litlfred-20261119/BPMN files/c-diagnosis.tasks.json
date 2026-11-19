@@ -1,0 +1,578 @@
+{
+  "$schema": "dak-task-annotations/v1",
+  "bpmn": "c-diagnosis.bpmn",
+  "process": "TB.C",
+  "document": "9789240086616-eng",
+  "heading": "DIAGNOSIS BUSINESS PROCESS NOTES AND ANNOTATIONS",
+  "tasks": [
+    {
+      "bpmnTask": "Activity_1t3y3i5",
+      "activityId": "TB.C1",
+      "name": "Carry out clinical examination",
+      "description": "- A clinical evaluation is usually required before performing tests that would provide a bacteriological confirmation of the disease. Usually, a decision to undertake a diagnostic work-up of an individual for TB begins with assessing the symptoms and signs of TB disease. In addition, a variety of nonspecific signs are also evaluated to identify the features that raise clinical suspicion: vital signs, signs of respiratory distress, signs of advanced HIV disease, seriously ill PLHIV based on four danger signs (respiratory rate of more than 30 breaths per minute, temperature of more than 39°C, heart rate of more than 120 beats per minute and unable to walk unaided), CD4 cell count, and so on. diagnostics for tuberculosis detection) (32) • 4. TB diagnostic approaches for children and adolescents.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [
+        "TB.C1.DE.1",
+        "TB.C1.DE.2",
+        "TB.C1.DE.3",
+        "TB.C1.DE.6",
+        "TB.C1.DE.7",
+        "TB.Comm.DE.1",
+        "TB.Comm.DE.112",
+        "TB.Comm.DE.118",
+        "TB.Comm.DE.119",
+        "TB.Comm.DE.120",
+        "TB.Comm.DE.121",
+        "TB.Comm.DE.125",
+        "TB.Comm.DE.2",
+        "TB.Comm.DE.3",
+        "TB.Comm.DE.4",
+        "TB.Comm.DE.5",
+        "TB.Comm.DE.57",
+        "TB.Comm.DE.6",
+        "TB.Comm.DE.68",
+        "TB.Comm.DE.7",
+        "TB.Comm.DE.71",
+        "TB.Comm.DE.8"
+      ],
+      "requirements": [
+        "TB.FXNREQ.026"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "1"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0kq2bs2",
+      "activityId": "TB.C2",
+      "name": "Assess medical history and risk factors",
+      "description": "- Discuss medical history with client and review the available records. Examples of history may include other diagnoses and medications.\n- Capture information related to the client’s occupation, socioeconomic risk factors (e.g. homelessness, imprisonment) and other health-related risk factors for TB, such as: – diabetes; – disorders due to alcohol use; – HIV; – smoking; – undernutrition; – disorders due to drug use; – silica exposure, silicosis; – viral hepatitis; – other clinical risk factors, for example, treatment with anti-TNFα3, dialysis, organ or haematological transplantation.\n- For clients evaluated for TB disease, with unknown HIV status, HIV testing should be performed in accordance with national guidelines.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [
+        "TB.C2.DE.1",
+        "TB.C2.DE.2",
+        "TB.C2.DE.7",
+        "TB.C2.DE.8",
+        "TB.Comm.DE.126",
+        "TB.Comm.DE.16",
+        "TB.Comm.DE.23",
+        "TB.Comm.DE.42",
+        "TB.Comm.DE.43",
+        "TB.Comm.DE.44",
+        "TB.Comm.DE.45",
+        "TB.Comm.DE.9"
+      ],
+      "requirements": [
+        "TB.FXNREQ.027"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "2"
+      }
+    },
+    {
+      "bpmnTask": "Activity_11elc1s",
+      "activityId": "TB.C3",
+      "name": "Assess TB contact history",
+      "description": "- Close contact with a source case with TB often involves sharing a living, learning or working space with them. Contact may also occur with a source case from outside the household (e.g. a neighbour, caregiver or relative) with whom the client has had frequent contact. • 4. TB diagnostic approaches for children and adolescents diagnostics for tuberculosis detection) (32).",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [
+        "TB.C3.DE.1",
+        "TB.C3.DE.4",
+        "TB.Comm.DE.46",
+        "TB.Comm.DE.47"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "3"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0oey75t",
+      "activityId": "TB.C4",
+      "name": "Assess history of prior treatment",
+      "description": "- Previous TB treatment shall be discussed. • 3. Implementing a new diagnostic test • 4. Model algorithms.",
+      "personas": [
+        "Health-care facility"
+      ],
+      "dataElements": [
+        "TB.C4.DE.1",
+        "TB.Comm.DE.48"
+      ],
+      "requirements": [
+        "TB.FXNREQ.028"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "4"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_0hjofbt",
+      "activityId": "TB.C5",
+      "name": "Is referral needed?",
+      "description": "- If, during the evaluation for TB disease, signs are identified requiring urgent medical care (e.g. gastrointestinal, circulatory, respiratory, neurological), a referral to the first referral level of care as per national guidelines, shall be considered. • Annex 5. Treatment decision algorithms.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "5"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_0xse9h1",
+      "activityId": "TB.C6",
+      "name": "Is the client presumed to have TB?",
+      "description": "- Depending on the findings of the initial clinical evaluation, the health worker decides whether the client should be further evaluated for TB disease or whether a TPT eligibility evaluation should be performed. This does not mean that every client evaluated as not being “presumptive TB” will get a TPT. The evaluation for TPT will be performed according to the “E.TPT” workflow.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "6"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0nw4gg7",
+      "activityId": "TB.C7",
+      "name": "Determine the diagnostic tests for the initial testing",
+      "description": "- The health worker selects a diagnosis algorithm and the diagnosis tests to be used depending on HIV status, the age of the client and other criteria. When selecting the diagnosis algorithm, it is important to consider the findings of the client’s clinical evaluation and the characteristics of the population to which the client belongs.\n- Decision logic: TB.C7.DT. • 2. Diagnostic tests with WHO recommendations.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [
+        "TB.C7.DT"
+      ],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "7"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_1lv5fnl",
+      "activityId": "TB.C8",
+      "name": "Can the specimen be collected?",
+      "description": "- In some cases, the specimen cannot be collected. Examples of such cases are: the client cannot produce the specimen (e.g. children who cannot produce sputum), the health worker lacks the necessary skills or tools to collect the specimen, or the client refuses the intervention.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "8"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_07l6hww",
+      "activityId": "TB.C9",
+      "name": "Is referral needed?",
+      "description": "- A referral to another facility may be needed if the specimen cannot be collected because of the lack of skills or tools or at client’s wish. The client might resume the workflow, with the appropriate activity, if they come back to the facility that issued the referral to continue the process (e.g. the client was referred to a secondary-level health-care facility for specimen collection and diagnostic test execution and they come back to the original facility for the interpretation of the test results and eventually for treatment initiation). Otherwise, the TB care process will be continued at the referral facility.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "9"
+      }
+    },
+    {
+      "bpmnTask": "Activity_017dled",
+      "activityId": "TB.C10",
+      "name": "Collect specimen(s)",
+      "description": "- The decision on which type of specimen should be collected depends on the type of TB being evaluated (pulmonary or extrapulmonary), the tests intended to be used, age and other criteria. • 4. TB diagnostic approaches for children and adolescents.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.Comm.DE.72",
+        "TB.Comm.DE.73",
+        "TB.Comm.DE.86"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "10"
+      }
+    },
+    {
+      "bpmnTask": "Activity_001i552",
+      "activityId": "TB.C11",
+      "name": "Perform the initial test(s) for the diagnosis of TB",
+      "description": "- At this step, the diagnostic test(s) is/are performed according to the corresponding test procedure.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.C11.DE.1",
+        "TB.C11.DE.12",
+        "TB.C11.DE.2",
+        "TB.C11.DE.5",
+        "TB.Comm.DE.87"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "11"
+      }
+    },
+    {
+      "bpmnTask": "Activity_08cnx79",
+      "activityId": "TB.C12",
+      "name": "Interpret the test(s) results",
+      "description": "- The test(s) results are interpreted according to the diagnosis algorithm selected to determine if TB disease is confirmed bacteriologically.\n- Decision logic: TB.C12.DT. • 4.1 Algorithm 1 – mWRD as the initial diagnostic test for TB • 4.2 Algorithm 2 – LF-LAM testing to aid in the diagnosis of TB among PLHIV.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.C12.DE.1",
+        "TB.Comm.DE.101",
+        "TB.Comm.DE.88",
+        "TB.Comm.DE.93",
+        "TB.Comm.DE.96"
+      ],
+      "requirements": [
+        "TB.FXNREQ.029"
+      ],
+      "decisionTables": [
+        "TB.C12.DT"
+      ],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "12"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_1sx9f1p",
+      "activityId": "TB.C13",
+      "name": "Is the TB bacteriologically confirmed?",
+      "description": "- When bacteriological confirmation cannot be obtained (negative test results), the recommendations could consist of repeating the test(s) and/or perform further investigations.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "13"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_0xih6f8",
+      "activityId": "TB.C14",
+      "name": "Repeat the initial test",
+      "description": "- When the diagnosis test gives an inconclusive result, such as “error”, “invalid”, “no result” or a negative result, the health worker might decide to repeat the test, using any portion of the sample remaining after the first test or by collecting a fresh specimen. The result of the second test is usually the result that is considered for clinical decisions. • 4.1.1 Decision pathway for Algorithm 1 – mWRD as the initial diagnostic test for TB.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "14"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_1aab4xb",
+      "activityId": "TB.C15",
+      "name": "Was mWRD with drug-resistance detection used?",
+      "description": "- When a molecular WHO-recommended rapid diagnostic test (mWRD) test with drug-resistance detection is used and the result confirms the presence of Mycobacterium tuberculosis, RIF susceptibility evaluation will be performed.\n- If a conventional diagnosis test or a WRD without drug-resistance detection was used and indicates bacteriological confirmation, the flow continues directly with diagnostic decision and follow-on testing in parallel. For example: TB was bacteriologically confirmed by lateral flow urine lipoarabinomannan assay (LF-LAM) as the initial diagnostic test; the health worker establishes the TB diagnosis result “diagnosed TB” and initiates TB treatment immediately; an mWRD test is performed in parallel with the purpose of assessing RIF susceptibility.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "15"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1jm9hhg",
+      "activityId": "TB.C16",
+      "name": "Evaluate RIF susceptibility",
+      "description": "- If testing was done with an mWRD test capable of detecting RIF resistance, the health worker needs to interpret the results of the RIF susceptibility test and decide on the next steps accordingly. – 16.1 Interpret RIF susceptibility test results The health worker interprets the RIF susceptibility test results. • Decision logic: TB.C16.1.DT. – 16.2 Repeat the test? Repeating the mWRD test is recommended in some cases, for example, when the RIF result is indeterminate and false RIF resistance is suspected. When there is no need to repeat the test, the subprocess ends and the workflow continues in parallel with follow-on testing and diagnostic decision-taking (e.g. when the mWRD test indicates “MTB detected, RIF resistance NOT detected”, the health worker establishes the TB diagnosis result “diagnosed TB” and initiates TB treatment with a first-line regimen; drug susceptibility testing [DST] for isoniazid [INH] is performed in parallel). – 16.3 Perform the mWRD test The health worker repeats the mWRD test. Probe binding delay and samples with a low bacillary load have been associated with increased false resistance or an “RIF indeterminate” result. A fresh specimen should be used to repeat the test. – 16.4 Interpret RIF susceptibility test results for the retest The results of the second test are analysed and a decision regarding treatment initiation and the next steps is made. The subprocess ends and the workflow continues in parallel with follow-on testing and diagnostic decision-taking. • Decision logic: TB.C16.4.DT. • 4.1 Algorithm 1 – mWRD as the initial diagnostic test for TB.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "16"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_1eobrxv",
+      "activityId": "TB.C17",
+      "name": "Availability of follow-on testing capability",
+      "description": "- If the follow-on testing capability for resistance to additional anti-TB drugs is missing at the current facility, the client needs to be referred to another facility. The flow might be resumed, with the appropriate activity, at the original facility if the client returns for the interpretation of the results and treatment initiation or treatment adjustments. Otherwise, the TB care process will be continued at the referral facility.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "17"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0ypltpb",
+      "activityId": "TB.C18",
+      "name": "Perform follow-on testing",
+      "description": "- Follow-on testing is used once TB disease is confirmed, with the goal of identifying resistance to TB drugs. If the results are inconclusive, such as “error”, “invalid”, “no result”, or a negative result is recorded, the health worker might decide to repeat the test. A new specimen might be needed for follow-on testing.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.C11.DE.12",
+        "TB.C11.DE.2",
+        "TB.C11.DE.5",
+        "TB.Comm.DE.87"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "18"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_11qfh3k",
+      "activityId": "TB.C19",
+      "name": "Do the RIF susceptibility results from the mWRD need to be interpreted?",
+      "description": "- When the goal of the follow-on test is to assess for RIF resistance using an mWRD diagnostic test (e.g. TB was bacteriologically confirmed by “microscopy – sputum” used as the initial diagnostic test, followed by a (follow-on) mWRD test with the purpose of confirming or excluding RIF resistance), the flow will continue with the subprocess “16. Evaluate RIF susceptibility”, otherwise the flow will continue with interpretation of the follow-on test results.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "19"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0vsra14",
+      "activityId": "TB.C20",
+      "name": "Interpret the follow-on test(s) results",
+      "description": "- The results of the follow-on testing are interpreted and further used for treatment adjustments, if needed.\n- Decision logic: TB.C20.DT. • 2. Diagnostic tests with WHO recommendations • 4.3 Algorithm 3 – DST for second-line drugs for patients with RR-TB or MDR-TB • 4.4 Algorithm 4 – mWRD as the initial or follow-on test to detect Hr-TB.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.C16.1.DE.1",
+        "TB.C16.1.DE.13",
+        "TB.C16.1.DE.9",
+        "TB.C20.DE.1",
+        "TB.C20.DE.10",
+        "TB.C20.DE.11",
+        "TB.C20.DE.15",
+        "TB.C20.DE.16",
+        "TB.C20.DE.20",
+        "TB.C20.DE.21",
+        "TB.C20.DE.25",
+        "TB.C20.DE.26",
+        "TB.C20.DE.30",
+        "TB.C20.DE.31",
+        "TB.C20.DE.35",
+        "TB.C20.DE.36",
+        "TB.C20.DE.40",
+        "TB.C20.DE.41",
+        "TB.C20.DE.45",
+        "TB.C20.DE.46",
+        "TB.C20.DE.5",
+        "TB.C20.DE.6",
+        "TB.Comm.DE.101",
+        "TB.Comm.DE.88",
+        "TB.Comm.DE.96"
+      ],
+      "requirements": [
+        "TB.FXNREQ.029"
+      ],
+      "decisionTables": [
+        "TB.C20.DT"
+      ],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "20"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_00phpe3",
+      "activityId": "TB.C21",
+      "name": "Testing for additional drug susceptibility",
+      "description": "- The health worker may recommend conducting further DST in line with the available test results. If this is necessary, the activities of “perform follow- on testing” and “interpret follow-on test results” will be repeated while concurrently modifying TB treatment, if deemed necessary.\n- Examples: – Case 1: TB was bacteriologically confirmed using sputum microscopy as the initial diagnostic test. RIF resistance was detected using an mWRD test as the follow-on test; therefore, TB treatment will need to be reviewed (change of TB treatment regimen: from first-line to second-line treatment given that the client is at high risk of MDR-TB), while a DST for second-line drugs is performed in parallel. – Case 2: TB susceptible to RIF was detected by mWRD as an initial test. INH resistance was detected using molecular DST as follow-on testing for INH; therefore, the treatment regimen is changed from first-line regimen to Hr- TB regimen, at the same time a specimen is referred for molecular DST for fluoroquinolone.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "21"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0abphwd",
+      "activityId": "TB.C22",
+      "name": "Conduct further investigations",
+      "description": "- When a diagnostic test cannot be performed or the test(s) is/are performed but the result is inconclusive or negative, the health worker should conduct additional investigations. Among such investigations, could be a chest X-ray (e.g. in case of a negative mWRD test or when the client cannot produce the specimen[s] necessary for bacteriological confirmation), analysis of the clinical response after treatment with antimicrobial agents or conducting additional testing (e.g. additional mWRD testing or culture in case of symptomatic persons with negative results for the initial diagnostic tests). • 4.1.1 Decision pathway for Algorithm 1 – mWRD as the initial diagnostic test for TB • 4.2 Algorithm 2 – LF-LAM testing to aid in the diagnosis of TB among PLHIV.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.C22.DE.1",
+        "TB.Comm.DE.130"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "22"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0r1whzo",
+      "activityId": "TB.C23",
+      "name": "Apply clinical judgement",
+      "description": "- The health worker assesses all the information available before making a diagnostic decision.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "23"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0l6cgga",
+      "activityId": "TB.C24",
+      "name": "Make a diagnostic decision",
+      "description": "- Clinical decisions should be made based on clinical judgement, the results of available laboratory tests or the results of further investigations (or both).\n- Currently, there are algorithms in the TB guidelines regarding making diagnostic decisions for children (<10 years old); therefore, the decision logic mentioned below refers to children younger than 10 years.\n- Decision logic: TB.C24.DT. • Annex 5. Treatment decision algorithms.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.C24.DE.1",
+        "TB.C24.DE.10",
+        "TB.C24.DE.4",
+        "TB.C24.DE.5",
+        "TB.C24.DE.6",
+        "TB.C24.DE.9",
+        "TB.Comm.DE.102",
+        "TB.Comm.DE.105"
+      ],
+      "requirements": [],
+      "decisionTables": [
+        "TB.C24.DT"
+      ],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "24"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_19zmy1l",
+      "activityId": "TB.C25",
+      "name": "When TB is diagnosed",
+      "description": "- Clients diagnosed with TB will need TB treatment whereas clients in whom TB disease was ruled out can be evaluated for TPT.",
+      "personas": [
+        "Client"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "25"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0s1nyqd",
+      "activityId": "TB.C26",
+      "name": "Identify contacts",
+      "description": "- Once a client is diagnosed with TB, it is important to identify their contacts as soon as possible to conduct screening activities on people recently exposed to TB with a high risk of developing the disease.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.C26.DE.1"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "26"
+      }
+    }
+  ],
+  "unmatched": [],
+  "unannotated": [
+    "Activity_1iupx2f"
+  ]
+}

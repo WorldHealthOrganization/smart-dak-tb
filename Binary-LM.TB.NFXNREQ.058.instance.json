@@ -1,0 +1,9 @@
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement",
+  "id": "LM.TB.NFXNREQ.058",
+  "requirement": "Be reliable and robust (minimize the number of system crashes)",
+  "category": {
+    "code": "Systemrequirementsusability",
+    "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"
+  }
+}

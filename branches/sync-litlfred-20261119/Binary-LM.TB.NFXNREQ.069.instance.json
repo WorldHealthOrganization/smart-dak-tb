@@ -1,0 +1,9 @@
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement",
+  "id": "LM.TB.NFXNREQ.069",
+  "requirement": "Accept data from multiple input methods including paper and geocoding (GPS)",
+  "category": {
+    "code": "Systemrequirementsinteroperability",
+    "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"
+  }
+}

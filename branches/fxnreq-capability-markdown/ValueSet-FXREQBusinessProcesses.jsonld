@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "http://smart.who.int/dak-tb/ValueSet-FXREQBusinessProcesses.jsonld",
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "fhir:CodeSystem": {
+      "@type": "@id"
+    },
+    "cs": "http://smart.who.int/dak-tb/CodeSystem-FXREQBusinessProcesses"
+  },
+  "@id": "http://smart.who.int/dak-tb/ValueSet-FXREQBusinessProcesses.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-18T21:57:49.672551Z",
+  "@graph": [
+    {
+      "id": "#A",
+      "name": "Registration"
+    },
+    {
+      "id": "#B",
+      "name": "Screening"
+    },
+    {
+      "id": "#C",
+      "name": "Diagnosis"
+    },
+    {
+      "id": "#D",
+      "name": "TB Treatment"
+    },
+    {
+      "id": "#E",
+      "name": "TB preventive treatment (TPT)"
+    },
+    {
+      "id": "#F",
+      "name": "Referral"
+    },
+    {
+      "id": "#G",
+      "name": "Aggregate reporting and data use"
+    }
+  ],
+  "fhir:CodeSystem": "cs"
+}

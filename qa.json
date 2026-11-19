@@ -1,0 +1,2709 @@
+{
+  "phase": "postprocessing",
+  "timestamp": "2026-11-19T08:04:55.147380",
+  "status": "completed",
+  "summary": {
+    "total_successes": 67,
+    "total_warnings": 126,
+    "total_errors": 0,
+    "files_processed_count": 136,
+    "files_expected_count": 1,
+    "files_missing_count": 1,
+    "completion_timestamp": "2026-11-19T08:04:55.656941"
+  },
+  "details": {
+    "successes": [
+      {
+        "message": "Starting generate_dak_api_hub.py post-processing",
+        "timestamp": "2026-11-19T08:04:55.147394"
+      },
+      {
+        "message": "Configured directories - Output: output, OpenAPI: input/openapi",
+        "timestamp": "2026-11-19T08:04:55.147397"
+      },
+      {
+        "message": "Loaded existing FHIR IG publisher QA file for merging",
+        "timestamp": "2026-11-19T08:04:55.147482"
+      },
+      {
+        "message": "[preprocessing] Starting update_sushi_config.py preprocessing",
+        "timestamp": "2026-11-19T08:04:55.147602"
+      },
+      {
+        "message": "[preprocessing] Successfully loaded sushi-config.yaml",
+        "timestamp": "2026-11-19T08:04:55.147608"
+      },
+      {
+        "message": "[preprocessing] Found smart-base dependency: smart.who.int.base",
+        "timestamp": "2026-11-19T08:04:55.147612"
+      },
+      {
+        "message": "[preprocessing] Created directory structure for input/pagecontent/dak-api.md",
+        "timestamp": "2026-11-19T08:04:55.147614"
+      },
+      {
+        "message": "[preprocessing] Successfully created dak-api.md with DAK_API_CONTENT marker",
+        "timestamp": "2026-11-19T08:04:55.147620"
+      },
+      {
+        "message": "[preprocessing] Found directory: input/resources",
+        "timestamp": "2026-11-19T08:04:55.147623"
+      },
+      {
+        "message": "[preprocessing] Found 0 JSON files in input/resources",
+        "timestamp": "2026-11-19T08:04:55.147626"
+      },
+      {
+        "message": "[preprocessing] Found directory: input/fsh/models",
+        "timestamp": "2026-11-19T08:04:55.147628"
+      },
+      {
+        "message": "[preprocessing] Found 0 FSH files in input/fsh/models",
+        "timestamp": "2026-11-19T08:04:55.147631"
+      },
+      {
+        "message": "[preprocessing] Found directory: input/fsh/valuesets",
+        "timestamp": "2026-11-19T08:04:55.147633"
+      },
+      {
+        "message": "[preprocessing] Found 2 FSH files in input/fsh/valuesets",
+        "timestamp": "2026-11-19T08:04:55.147635"
+      },
+      {
+        "message": "[preprocessing] Found ValueSet from FSH: FXREQBusinessProcesses",
+        "timestamp": "2026-11-19T08:04:55.147640",
+        "details": {
+          "source_file": "input/fsh/valuesets/FXREQBusinessProcesses.fsh",
+          "title": "Functional Requirements Business Processes"
+        }
+      },
+      {
+        "message": "[preprocessing] Found ValueSet from FSH: FXREQCategories",
+        "timestamp": "2026-11-19T08:04:55.147643",
+        "details": {
+          "source_file": "input/fsh/valuesets/FXREQCategories.fsh",
+          "title": "Functional Requirement Categories"
+        }
+      },
+      {
+        "message": "[preprocessing] Found directory: input/models",
+        "timestamp": "2026-11-19T08:04:55.147646"
+      },
+      {
+        "message": "[preprocessing] Found 0 JSON files in input/models",
+        "timestamp": "2026-11-19T08:04:55.147648"
+      },
+      {
+        "message": "[preprocessing] Found directory: input/vocabulary",
+        "timestamp": "2026-11-19T08:04:55.147653"
+      },
+      {
+        "message": "[preprocessing] Found 0 JSON files in input/vocabulary",
+        "timestamp": "2026-11-19T08:04:55.147655"
+      },
+      {
+        "message": "[preprocessing] Ensured directory exists: input/pagecontent",
+        "timestamp": "2026-11-19T08:04:55.147657"
+      },
+      {
+        "message": "[preprocessing] Created placeholder: ValueSet-FXREQBusinessProcesses.md",
+        "timestamp": "2026-11-19T08:04:55.147659"
+      },
+      {
+        "message": "[preprocessing] Created placeholder: ValueSet-FXREQCategories.md",
+        "timestamp": "2026-11-19T08:04:55.147662"
+      },
+      {
+        "message": "[preprocessing] Placeholder generation completed",
+        "timestamp": "2026-11-19T08:04:55.147664",
+        "details": {
+          "valuesets_found": 2,
+          "logical_models_found": 0,
+          "placeholder_files_created": 2
+        }
+      },
+      {
+        "message": "[preprocessing] Added dak-api.md to pages section",
+        "timestamp": "2026-11-19T08:04:55.147666"
+      },
+      {
+        "message": "[preprocessing] Added DAK API to menu Indices section",
+        "timestamp": "2026-11-19T08:04:55.147668"
+      },
+      {
+        "message": "[preprocessing] sushi-config.yaml updated successfully",
+        "timestamp": "2026-11-19T08:04:55.147671"
+      },
+      {
+        "message": "[preprocessing] update_sushi_config completed successfully",
+        "timestamp": "2026-11-19T08:04:55.147673"
+      },
+      {
+        "message": "Merged preprocessing QA report from input/temp/",
+        "timestamp": "2026-11-19T08:04:55.147707"
+      },
+      {
+        "message": "[valueset_schemas] Starting ValueSet schema generation",
+        "timestamp": "2026-11-19T08:04:55.147862"
+      },
+      {
+        "message": "[valueset_schemas] Configured paths - Expansions: output/expansions.json, Output: output",
+        "timestamp": "2026-11-19T08:04:55.147871"
+      },
+      {
+        "message": "[valueset_schemas] Successfully loaded expansions data from output/expansions.json",
+        "timestamp": "2026-11-19T08:04:55.147874"
+      },
+      {
+        "message": "[valueset_schemas] Successfully generated 2 ValueSet schemas",
+        "timestamp": "2026-11-19T08:04:55.147877"
+      },
+      {
+        "message": "Merged ValueSet schema generation QA report from input/temp/qa_valueset_schemas.json",
+        "timestamp": "2026-11-19T08:04:55.147886"
+      },
+      {
+        "message": "[logical_model_schemas] Script started",
+        "timestamp": "2026-11-19T08:04:55.148760",
+        "details": {
+          "input_directory": "output",
+          "output_directory": "output"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Input directory found",
+        "timestamp": "2026-11-19T08:04:55.148765",
+        "details": {
+          "directory": "output"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Found 0 StructureDefinition files",
+        "timestamp": "2026-11-19T08:04:55.148767",
+        "details": {
+          "directory": "output",
+          "file_count": 0
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Found 0 logical models",
+        "timestamp": "2026-11-19T08:04:55.148768",
+        "details": {
+          "models_found": 0,
+          "model_names": []
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated 0 Logical Model schemas",
+        "timestamp": "2026-11-19T08:04:55.148770",
+        "details": {
+          "schemas_generated": 0,
+          "schema_files": []
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Found 123 Binary JSON file(s)",
+        "timestamp": "2026-11-19T08:04:55.148771",
+        "details": {
+          "directory": "output",
+          "file_count": 123
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Processed 123 logical model instance(s) (0 valid, 0 with issues)",
+        "timestamp": "2026-11-19T08:04:55.148772",
+        "details": {
+          "instances_processed": 123,
+          "instances_valid": 0,
+          "instances_invalid": 0
+        }
+      },
+      {
+        "message": "Merged Logical Model schema generation QA report from input/temp/qa_logical_model_schemas.json",
+        "timestamp": "2026-11-19T08:04:55.149180"
+      },
+      {
+        "message": "[jsonld_vocabularies] Script started",
+        "timestamp": "2026-11-19T08:04:55.149370",
+        "details": {
+          "expansions_path": "output/expansions.json",
+          "output_directory": "output"
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Successfully loaded expansions data",
+        "timestamp": "2026-11-19T08:04:55.149378",
+        "details": {
+          "expansions_path": "output/expansions.json"
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Found FHIR Bundle",
+        "timestamp": "2026-11-19T08:04:55.149384",
+        "details": {
+          "resourceType": "Bundle"
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Found 2 entries in Bundle",
+        "timestamp": "2026-11-19T08:04:55.149386",
+        "details": {
+          "entry_count": 2
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Processing ValueSet FXREQBusinessProcesses",
+        "timestamp": "2026-11-19T08:04:55.149389",
+        "details": {
+          "valueset_id": "FXREQBusinessProcesses",
+          "entry_index": 0
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Extracted 7 codes for ValueSet FXREQBusinessProcesses",
+        "timestamp": "2026-11-19T08:04:55.149392",
+        "details": {
+          "valueset_id": "FXREQBusinessProcesses",
+          "codes_count": 7
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Generated JSON-LD vocabulary for ValueSet FXREQBusinessProcesses",
+        "timestamp": "2026-11-19T08:04:55.149394"
+      },
+      {
+        "message": "[jsonld_vocabularies] Processing ValueSet FXREQCategories",
+        "timestamp": "2026-11-19T08:04:55.149397",
+        "details": {
+          "valueset_id": "FXREQCategories",
+          "entry_index": 1
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Extracted 10 codes for ValueSet FXREQCategories",
+        "timestamp": "2026-11-19T08:04:55.149399",
+        "details": {
+          "valueset_id": "FXREQCategories",
+          "codes_count": 10
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Generated JSON-LD vocabulary for ValueSet FXREQCategories",
+        "timestamp": "2026-11-19T08:04:55.149402"
+      },
+      {
+        "message": "[jsonld_vocabularies] Generated 2 JSON-LD vocabularies",
+        "timestamp": "2026-11-19T08:04:55.149404",
+        "details": {
+          "vocabularies_generated": 2
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Successfully generated 2 JSON-LD vocabularies in output",
+        "timestamp": "2026-11-19T08:04:55.149408",
+        "details": {
+          "vocabularies_count": 2,
+          "output_directory": "output"
+        }
+      },
+      {
+        "message": "Merged JSON-LD vocabulary generation QA report from input/temp/qa_jsonld_vocabularies.json",
+        "timestamp": "2026-11-19T08:04:55.149420"
+      },
+      {
+        "message": "Output directory exists with 3898 items",
+        "timestamp": "2026-11-19T08:04:55.153885"
+      },
+      {
+        "message": "Output directory contents sampled",
+        "timestamp": "2026-11-19T08:04:55.155930",
+        "details": {
+          "sample_files": [
+            "Requirements-TB.FXNREQ.038.E.change.history.html",
+            "Requirements-TB.NFXNREQ.038.html",
+            "Requirements-TB.FXNREQ.050.F.xml.html",
+            "Requirements-TB.FXNREQ.022.B.xml.md",
+            "Requirements-TB.NFXNREQ.068.xml.html",
+            "Requirements-TB.FXNREQ.049.F.xml",
+            "package.r4b.manifest.json",
+            "tbl_vjoin_slice-open.png",
+            "icon-implementation.png",
+            "Binary-LM.TB.FXNREQ.039.E.ttl"
+          ]
+        }
+      },
+      {
+        "message": "Initializing DAK API components",
+        "timestamp": "2026-11-19T08:04:55.155984"
+      },
+      {
+        "message": "All components initialized successfully",
+        "timestamp": "2026-11-19T08:04:55.156072"
+      },
+      {
+        "message": "Starting schema file detection phase",
+        "timestamp": "2026-11-19T08:04:55.156190"
+      },
+      {
+        "message": "Schema detection completed",
+        "timestamp": "2026-11-19T08:04:55.159780",
+        "details": {
+          "valueset_schemas": 2,
+          "logical_model_schemas": 0,
+          "other_schemas": 1
+        }
+      },
+      {
+        "message": "Documentation summary completed",
+        "timestamp": "2026-11-19T08:04:55.198334",
+        "details": {
+          "valueset_schema_docs": 2,
+          "logical_model_schema_docs": 0,
+          "enumeration_endpoints": 1,
+          "jsonld_vocabularies": 2,
+          "openapi_docs": 3
+        }
+      },
+      {
+        "message": "Total content items to include in hub: 8",
+        "timestamp": "2026-11-19T08:04:55.198407"
+      },
+      {
+        "message": "Dynamic source loading applied to 762 HTML files",
+        "timestamp": "2026-11-19T08:04:55.651600"
+      },
+      {
+        "message": "Starting DAK API hub post-processing phase",
+        "timestamp": "2026-11-19T08:04:55.651650"
+      },
+      {
+        "message": "DAK API hub post-processing completed successfully",
+        "timestamp": "2026-11-19T08:04:55.653377",
+        "details": {
+          "total_documentation_pages": 8,
+          "valueset_pages": 2,
+          "logical_model_pages": 0,
+          "enumeration_pages": 1,
+          "jsonld_references": 2,
+          "openapi_pages": 3
+        }
+      },
+      {
+        "message": "Generated OpenAPI index: output/openapi/index.html",
+        "timestamp": "2026-11-19T08:04:55.656930"
+      }
+    ],
+    "warnings": [
+      {
+        "message": "[preprocessing] dak-api.md does not exist, creating new file",
+        "timestamp": "2026-11-19T08:04:55.147676"
+      },
+      {
+        "message": "[preprocessing] Directory not found: fsh-generated/resources",
+        "timestamp": "2026-11-19T08:04:55.147682"
+      },
+      {
+        "message": "[logical_model_schemas] No logical model schemas were generated (no logical models found)",
+        "timestamp": "2026-11-19T08:04:55.148774"
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148776",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.041",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148778",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.013",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148779",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.017",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148781",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.051.F",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148782",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.051",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148783",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.002.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148785",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.053",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148786",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.023",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148787",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.050.F",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148791",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.045.F",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148793",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.035.D",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148794",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.006",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148796",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.061",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148797",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.005",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148798",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.044.F",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148800",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.027.C",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148801",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.011",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148802",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.025.B",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148803",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.005.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148806",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.010",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148808",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.015.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148809",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.056",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148810",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.016.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148812",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.046.F",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148815",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.041.E",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148816",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.015",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148817",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.045",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148819",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.062",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148820",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.012",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148821",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.021.B",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148823",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.010.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148824",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.052",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148825",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.026.C",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148829",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.029",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148830",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.048.F",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148831",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.050",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148833",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.014.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148834",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.031",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148835",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.031.D",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148838",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.033.D",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148840",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.068",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148841",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.039",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148846",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.036.D",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148847",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.070",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148848",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.046",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148850",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.034.D",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148851",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.019",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148852",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.052.G",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148854",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.030.D",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148855",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.013.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148856",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.038.E",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148858",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.048",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148861",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.053.G",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148862",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.021",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148863",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.064",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148864",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.004",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148866",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.057",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148867",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.018",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148868",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.020.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148869",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.003.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148871",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.026",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148874",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.014",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148875",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.069",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148877",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.016",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148878",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.063",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148879",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.028.C",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148880",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.022.B",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148882",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.047.F",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148883",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.004.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148884",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.018.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148889",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.006.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148890",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.009.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148891",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.001",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148894",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.034",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148896",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.008.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148897",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.001.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148898",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.039.E",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148900",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.029.C",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148901",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.058",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148904",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.060",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148905",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.037",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148907",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.038",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148908",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.028",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148909",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.009",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148910",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.040.E",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148912",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.049",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148913",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.059",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148914",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.024",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148915",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.042.E",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148918",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.035",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148920",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.030",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148921",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.025",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148922",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.019.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148924",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.007.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148925",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.024.B",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148926",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.022",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148927",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.002",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148929",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.023.B",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148932",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.032",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148933",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.065",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148934",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.043.E",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148935",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.003",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148937",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.012.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148940",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.007",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148941",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.043",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148944",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.017.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148945",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.054",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148948",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.047",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148950",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.008",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148951",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.011.A",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148952",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.037.E",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148953",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.036",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148955",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.032.D",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148956",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.055",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148957",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.044",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148958",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.067",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148961",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.066",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'FunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/FunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148963",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.049.F",
+          "model_url": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148964",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.040",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148965",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.020",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148966",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.033",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148968",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.027",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] No generated schema found for model 'NonFunctionalRequirement' (url: http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement) – skipping validation",
+        "timestamp": "2026-11-19T08:04:55.148971",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.042",
+          "model_url": "http://smart.who.int/base/StructureDefinition/NonFunctionalRequirement"
+        }
+      }
+    ],
+    "errors": [],
+    "files_processed": [
+      {
+        "file": "[preprocessing] sushi-config.yaml",
+        "status": "loaded",
+        "timestamp": "2026-11-19T08:04:55.147686"
+      },
+      {
+        "file": "[preprocessing] input/pagecontent/dak-api.md",
+        "status": "created",
+        "timestamp": "2026-11-19T08:04:55.147690"
+      },
+      {
+        "file": "[preprocessing] input/fsh/valuesets/FXREQBusinessProcesses.fsh",
+        "status": "valueset_detected",
+        "timestamp": "2026-11-19T08:04:55.147693"
+      },
+      {
+        "file": "[preprocessing] input/fsh/valuesets/FXREQCategories.fsh",
+        "status": "valueset_detected",
+        "timestamp": "2026-11-19T08:04:55.147695"
+      },
+      {
+        "file": "[preprocessing] input/pagecontent/ValueSet-FXREQBusinessProcesses.md",
+        "status": "created",
+        "timestamp": "2026-11-19T08:04:55.147698"
+      },
+      {
+        "file": "[preprocessing] input/pagecontent/ValueSet-FXREQCategories.md",
+        "status": "created",
+        "timestamp": "2026-11-19T08:04:55.147700"
+      },
+      {
+        "file": "[preprocessing] sushi-config.yaml",
+        "status": "updated",
+        "timestamp": "2026-11-19T08:04:55.147702"
+      },
+      {
+        "file": "[valueset_schemas] output/expansions.json",
+        "status": "loaded",
+        "timestamp": "2026-11-19T08:04:55.147882"
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.041.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148973",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.041",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.013.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148975",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.013",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.017.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148976",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.017",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.051.F.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148978",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.051.F",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.051.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148981",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.051",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.002.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148982",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.002.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.053.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148984",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.053",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.023.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148985",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.023",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.050.F.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148986",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.050.F",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.045.F.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148988",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.045.F",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.035.D.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148989",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.035.D",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.006.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148990",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.006",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.061.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148991",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.061",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.005.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148993",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.005",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.044.F.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148996",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.044.F",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.027.C.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148997",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.027.C",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.011.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.148999",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.011",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.025.B.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149000",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.025.B",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.005.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149001",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.005.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.010.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149002",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.010",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.015.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149004",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.015.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.056.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149005",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.056",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.016.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149006",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.016.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.046.F.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149008",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.046.F",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.041.E.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149009",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.041.E",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.015.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149010",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.015",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.045.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149011",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.045",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.062.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149013",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.062",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.012.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149014",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.012",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.021.B.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149015",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.021.B",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.010.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149017",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.010.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.052.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149018",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.052",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.026.C.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149019",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.026.C",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.029.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149020",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.029",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.048.F.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149022",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.048.F",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.050.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149023",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.050",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.014.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149024",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.014.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.031.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149026",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.031",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.031.D.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149027",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.031.D",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.033.D.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149028",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.033.D",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.068.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149031",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.068",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.039.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149033",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.039",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.036.D.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149034",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.036.D",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.070.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149035",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.070",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.046.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149036",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.046",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.034.D.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149040",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.034.D",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.019.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149043",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.019",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.052.G.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149044",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.052.G",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.030.D.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149045",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.030.D",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.013.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149052",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.013.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.038.E.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149053",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.038.E",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.048.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149055",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.048",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.053.G.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149056",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.053.G",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.021.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149057",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.021",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.064.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149059",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.064",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.004.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149060",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.004",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.057.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149061",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.057",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.018.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149062",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.018",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.020.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149064",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.020.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.003.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149065",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.003.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.026.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149066",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.026",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.014.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149067",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.014",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.069.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149069",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.069",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.016.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149070",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.016",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.063.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149072",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.063",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.028.C.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149073",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.028.C",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.022.B.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149074",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.022.B",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.047.F.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149075",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.047.F",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.004.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149077",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.004.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.018.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149078",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.018.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.006.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149079",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.006.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.009.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149081",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.009.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.001.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149082",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.001",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.034.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149083",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.034",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.008.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149084",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.008.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.001.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149086",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.001.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.039.E.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149087",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.039.E",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.029.C.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149091",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.029.C",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.058.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149093",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.058",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.060.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149094",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.060",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.037.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149095",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.037",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.038.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149097",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.038",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.028.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149098",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.028",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.009.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149099",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.009",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.040.E.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149100",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.040.E",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.049.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149102",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.049",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.059.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149103",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.059",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.024.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149104",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.024",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.042.E.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149106",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.042.E",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.035.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149107",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.035",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.030.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149108",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.030",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.025.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149110",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.025",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.019.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149111",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.019.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.007.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149112",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.007.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.024.B.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149113",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.024.B",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.022.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149114",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.022",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.002.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149116",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.002",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.023.B.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149117",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.023.B",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.032.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149118",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.032",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.065.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149119",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.065",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.043.E.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149122",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.043.E",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.003.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149124",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.003",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.012.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149125",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.012.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.007.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149127",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.007",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.043.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149128",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.043",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.017.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149129",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.017.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.054.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149130",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.054",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.047.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149132",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.047",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.008.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149133",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.008",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.011.A.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149138",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.011.A",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.037.E.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149139",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.037.E",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.036.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149140",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.036",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.032.D.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149142",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.032.D",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.055.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149145",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.055",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.044.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149146",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.044",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.067.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149147",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.067",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.066.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149148",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.066",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.FXNREQ.049.F.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149150",
+        "details": {
+          "binary_id": "LM.TB.FXNREQ.049.F",
+          "model": "FunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.040.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149151",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.040",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.020.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149152",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.020",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.033.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149153",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.033",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.027.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149155",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.027",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/Binary-LM.TB.NFXNREQ.042.instance.json",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149156",
+        "details": {
+          "binary_id": "LM.TB.NFXNREQ.042",
+          "model": "NonFunctionalRequirement",
+          "validation_errors": 0
+        }
+      },
+      {
+        "file": "[jsonld_vocabularies] output/ValueSet-FXREQBusinessProcesses.jsonld",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149412",
+        "details": {
+          "valueset_id": "FXREQBusinessProcesses",
+          "codes_count": 7,
+          "vocab_size": 962
+        }
+      },
+      {
+        "file": "[jsonld_vocabularies] output/ValueSet-FXREQCategories.jsonld",
+        "status": "success",
+        "timestamp": "2026-11-19T08:04:55.149416",
+        "details": {
+          "valueset_id": "FXREQCategories",
+          "codes_count": 10,
+          "vocab_size": 1548
+        }
+      },
+      {
+        "file": "output/ValueSet-FXREQBusinessProcesses.schema.json",
+        "status": "valueset_schema_detected",
+        "timestamp": "2026-11-19T08:04:55.159785"
+      },
+      {
+        "file": "output/ValueSet-FXREQCategories.schema.json",
+        "status": "valueset_schema_detected",
+        "timestamp": "2026-11-19T08:04:55.159788"
+      },
+      {
+        "file": "output/ValueSets.schema.json",
+        "status": "other_schema_detected",
+        "timestamp": "2026-11-19T08:04:55.159791"
+      }
+    ],
+    "files_expected": [
+      "output"
+    ],
+    "files_missing": [
+      "output"
+    ]
+  }
+}

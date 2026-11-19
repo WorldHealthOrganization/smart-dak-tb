@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="8fa0f86e-a66c-44a5-980c-158bc81872e3"/>
+  <meta>
+    <lastUpdated value="2026-11-18T21:56:27.305+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://smart.who.int/dak-tb/ValueSet/FXREQBusinessProcesses"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-FXREQBusinessProcesses.html">codesystem Functional Requirements Business Processes v1.0.2 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses|1.0.2" title="Click to Copy URL" class="btn-copy" aria-label="copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses-A"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQBusinessProcesses.html#FXREQBusinessProcesses-A">A</a>
+                </td>
+                <td>Registration</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;A&quot;, &quot;display&quot;: &quot;Registration&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;A&quot;/&gt;&lt;display value=&quot;Registration&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses-B"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQBusinessProcesses.html#FXREQBusinessProcesses-B">B</a>
+                </td>
+                <td>Screening</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;B&quot;, &quot;display&quot;: &quot;Screening&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;B&quot;/&gt;&lt;display value=&quot;Screening&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses-C"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQBusinessProcesses.html#FXREQBusinessProcesses-C">C</a>
+                </td>
+                <td>Diagnosis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;C&quot;, &quot;display&quot;: &quot;Diagnosis&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;C&quot;/&gt;&lt;display value=&quot;Diagnosis&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses-D"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQBusinessProcesses.html#FXREQBusinessProcesses-D">D</a>
+                </td>
+                <td>TB Treatment</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;D&quot;, &quot;display&quot;: &quot;TB Treatment&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;D&quot;/&gt;&lt;display value=&quot;TB Treatment&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses-E"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQBusinessProcesses.html#FXREQBusinessProcesses-E">E</a>
+                </td>
+                <td>TB preventive treatment (TPT)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;E&quot;, &quot;display&quot;: &quot;TB preventive treatment (TPT)&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;E&quot;/&gt;&lt;display value=&quot;TB preventive treatment (TPT)&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses-F"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQBusinessProcesses.html#FXREQBusinessProcesses-F">F</a>
+                </td>
+                <td>Referral</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;F&quot;, &quot;display&quot;: &quot;Referral&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;F&quot;/&gt;&lt;display value=&quot;Referral&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses-G"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQBusinessProcesses.html#FXREQBusinessProcesses-G">G</a>
+                </td>
+                <td>Aggregate reporting and data use</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;G&quot;, &quot;display&quot;: &quot;Aggregate reporting and data use&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;G&quot;/&gt;&lt;display value=&quot;Aggregate reporting and data use&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://smart.who.int/dak-tb/ValueSet/FXREQBusinessProcesses"/>
+        <version value="1.0.2"/>
+        <name value="FXREQBusinessProcesses"/>
+        <title value="Functional Requirements Business Processes"/>
+        <status value="active"/>
+        <experimental value="true"/>
+        <date value="2026-11-18T21:56:27+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:9fd29f91-f838-4fd8-924f-15b06dab42a4"/>
+          <timestamp value="2026-11-18T21:57:24+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses|1.0.2"/>
+          </parameter>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"/>
+            <code value="A"/>
+            <display value="Registration"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"/>
+            <code value="B"/>
+            <display value="Screening"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"/>
+            <code value="C"/>
+            <display value="Diagnosis"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"/>
+            <code value="D"/>
+            <display value="TB Treatment"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"/>
+            <code value="E"/>
+            <display value="TB preventive treatment (TPT)"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"/>
+            <code value="F"/>
+            <display value="Referral"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"/>
+            <code value="G"/>
+            <display value="Aggregate reporting and data use"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://smart.who.int/dak-tb/ValueSet/FXREQCategories"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-FXREQCategories.html">codesystem Functional Requirement Categories v1.0.2 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://smart.who.int/dak-tb/CodeSystem/FXREQCategories|1.0.2" title="Click to Copy URL" class="btn-copy" aria-label="copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 10 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQCategories-Securityconfidentiality"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQCategories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQCategories.html#FXREQCategories-Securityconfidentiality">Securityconfidentiality</a>
+                </td>
+                <td>Security – confidentiality</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;Securityconfidentiality&quot;, &quot;display&quot;: &quot;Security – confidentiality&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;Securityconfidentiality&quot;/&gt;&lt;display value=&quot;Security – confidentiality&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQCategories-Securityauthentication"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQCategories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQCategories.html#FXREQCategories-Securityauthentication">Securityauthentication</a>
+                </td>
+                <td>Security – authentication</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;Securityauthentication&quot;, &quot;display&quot;: &quot;Security – authentication&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;Securityauthentication&quot;/&gt;&lt;display value=&quot;Security – authentication&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQCategories-Securityaudittrailandlogs"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQCategories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQCategories.html#FXREQCategories-Securityaudittrailandlogs">Securityaudittrailandlogs</a>
+                </td>
+                <td>Security – audit trail and logs</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;Securityaudittrailandlogs&quot;, &quot;display&quot;: &quot;Security – audit trail and logs&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;Securityaudittrailandlogs&quot;/&gt;&lt;display value=&quot;Security – audit trail and logs&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQCategories-Securityusermanagement"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQCategories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQCategories.html#FXREQCategories-Securityusermanagement">Securityusermanagement</a>
+                </td>
+                <td>Security – user management</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;Securityusermanagement&quot;, &quot;display&quot;: &quot;Security – user management&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;Securityusermanagement&quot;/&gt;&lt;display value=&quot;Security – user management&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQCategories-Systemrequirementsgeneral"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQCategories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQCategories.html#FXREQCategories-Systemrequirementsgeneral">Systemrequirementsgeneral</a>
+                </td>
+                <td>System requirements – general</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;Systemrequirementsgeneral&quot;, &quot;display&quot;: &quot;System requirements – general&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;Systemrequirementsgeneral&quot;/&gt;&lt;display value=&quot;System requirements – general&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQCategories-Systemrequirementsscalability"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQCategories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQCategories.html#FXREQCategories-Systemrequirementsscalability">Systemrequirementsscalability</a>
+                </td>
+                <td>System requirements – scalability</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;Systemrequirementsscalability&quot;, &quot;display&quot;: &quot;System requirements – scalability&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;Systemrequirementsscalability&quot;/&gt;&lt;display value=&quot;System requirements – scalability&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQCategories-Systemrequirementsusability"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQCategories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQCategories.html#FXREQCategories-Systemrequirementsusability">Systemrequirementsusability</a>
+                </td>
+                <td>System requirements – usability</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;Systemrequirementsusability&quot;, &quot;display&quot;: &quot;System requirements – usability&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;Systemrequirementsusability&quot;/&gt;&lt;display value=&quot;System requirements – usability&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQCategories-Systemrequirementsconfiguration"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQCategories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQCategories.html#FXREQCategories-Systemrequirementsconfiguration">Systemrequirementsconfiguration</a>
+                </td>
+                <td>System requirements – configuration</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;Systemrequirementsconfiguration&quot;, &quot;display&quot;: &quot;System requirements – configuration&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;Systemrequirementsconfiguration&quot;/&gt;&lt;display value=&quot;System requirements – configuration&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQCategories-Systemrequirementsinteroperability"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQCategories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQCategories.html#FXREQCategories-Systemrequirementsinteroperability">Systemrequirementsinteroperability</a>
+                </td>
+                <td>System requirements – interoperability</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;Systemrequirementsinteroperability&quot;, &quot;display&quot;: &quot;System requirements – interoperability&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;Systemrequirementsinteroperability&quot;/&gt;&lt;display value=&quot;System requirements – interoperability&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/dak-tb/CodeSystem/FXREQCategories-Systemrequirementshardwareandconnectivity"> </a>
+                  <code>http://smart.who.int/dak-tb/CodeSystem/FXREQCategories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-FXREQCategories.html#FXREQCategories-Systemrequirementshardwareandconnectivity">Systemrequirementshardwareandconnectivity</a>
+                </td>
+                <td>System requirements – hardware and connectivity</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;, &quot;version&quot;: &quot;1.0.2&quot;, &quot;code&quot;: &quot;Systemrequirementshardwareandconnectivity&quot;, &quot;display&quot;: &quot;System requirements – hardware and connectivity&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/dak-tb/CodeSystem/FXREQCategories&quot;/&gt;&lt;version value=&quot;1.0.2&quot;/&gt;&lt;code value=&quot;Systemrequirementshardwareandconnectivity&quot;/&gt;&lt;display value=&quot;System requirements – hardware and connectivity&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://smart.who.int/dak-tb/ValueSet/FXREQCategories"/>
+        <version value="1.0.2"/>
+        <name value="FXREQCategories"/>
+        <title value="Functional Requirement Categories"/>
+        <status value="active"/>
+        <experimental value="true"/>
+        <date value="2026-11-18T21:56:27+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:b1898a26-11f5-4edf-9f50-d1439464e843"/>
+          <timestamp value="2026-11-18T21:57:24+00:00"/>
+          <total value="10"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://smart.who.int/dak-tb/CodeSystem/FXREQCategories|1.0.2"/>
+          </parameter>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"/>
+            <code value="Securityconfidentiality"/>
+            <display value="Security – confidentiality"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"/>
+            <code value="Securityauthentication"/>
+            <display value="Security – authentication"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"/>
+            <code value="Securityaudittrailandlogs"/>
+            <display value="Security – audit trail and logs"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"/>
+            <code value="Securityusermanagement"/>
+            <display value="Security – user management"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"/>
+            <code value="Systemrequirementsgeneral"/>
+            <display value="System requirements – general"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"/>
+            <code value="Systemrequirementsscalability"/>
+            <display value="System requirements – scalability"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"/>
+            <code value="Systemrequirementsusability"/>
+            <display value="System requirements – usability"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"/>
+            <code value="Systemrequirementsconfiguration"/>
+            <display value="System requirements – configuration"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"/>
+            <code value="Systemrequirementsinteroperability"/>
+            <display value="System requirements – interoperability"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/dak-tb/CodeSystem/FXREQCategories"/>
+            <code value="Systemrequirementshardwareandconnectivity"/>
+            <display value="System requirements – hardware and connectivity"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

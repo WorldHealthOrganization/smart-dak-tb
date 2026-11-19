@@ -1,0 +1,18 @@
+{
+  "resourceType": "http://smart.who.int/base/StructureDefinition/FunctionalRequirement",
+  "id": "LM.TB.FXNREQ.026.C",
+  "activity": " Carry out clinical examination",
+  "actor": [
+    {
+      "reference": "ActorDefinition/healthworkere.g.nurse"
+    }
+  ],
+  "capabilityMarkdown": "The system to use the data entered for a client to generate statistics, graphs, pop-ups (on demand or ad hoc)",
+  "benefitMarkdown": "I can take better clinical decisions",
+  "classification": [
+    {
+      "code": "C",
+      "system": "http://smart.who.int/dak-tb/CodeSystem/FXREQBusinessProcesses"
+    }
+  ]
+}
