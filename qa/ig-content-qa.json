@@ -5,7 +5,7 @@
   "reviewedAt": "2026-11-15T16:58:36.169Z",
   "reviewer": {
     "kind": "agent",
-    "name": "Claude (Opus 5.5)",
+    "name": "Claude",
     "session": "https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
   },
   "findings": []
