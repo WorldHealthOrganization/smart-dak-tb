@@ -1,0 +1,223 @@
+{
+  "$schema": "dak-task-annotations/v1",
+  "bpmn": "b-screening.bpmn",
+  "process": "TB.B",
+  "document": "9789240086616-eng",
+  "heading": "SCREENING BUSINESS PROCESS NOTES AND ANNOTATIONS",
+  "tasks": [
+    {
+      "bpmnTask": "Activity_1cldotz",
+      "activityId": "TB.B1",
+      "name": "Provide pre-screening information and ask for consent",
+      "description": "- The health worker presents the potential risks and benefits of the screening procedure and familiarizes the client with the screening tools and procedure.\n- TB screening should follow established ethical principles for screening for infectious diseases, including obtaining voluntary informed consent before proceeding with screening. It is an ongoing, dynamic process that must be continually monitored and renewed during the whole time a patient is receiving health services. It is a basic right and an important means of upholding a patient’s autonomy.\n- Informed consent refers to the process of engaging patients in the delivery of health services by giving them sufficient and relevant information to enable them to make decisions for themselves. (systematic screening for tuberculosis disease) (31): • 1.2 Principles of TB screening • 2.4 Identifying and prioritizing risk groups – Ethics guidance for the implementation of the End TB strategy (39): • 5. Education, counselling and the role of consent.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [
+        "TB.FXNREQ.021",
+        "TB.FXNREQ.022"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "1"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1u0mtco",
+      "activityId": "TB.B2",
+      "name": "Make an informed decision",
+      "description": "- The client makes an informed decision regarding the acceptance and continuation of the process.\n- Consent given by the client includes agreement to follow various TB screening tests and evaluations (signed or witnessed consent if the patient is illiterate, or signed or witnessed consent from a child’s parent or legal guardian).\n- Patients who refuse to consent should be counselled about the risks to both themselves and the community.",
+      "personas": [
+        "Client"
+      ],
+      "dataElements": [
+        "TB.B2.DE.1",
+        "TB.B2.DE.2"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "2"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1rxwi51",
+      "activityId": "TB.B3",
+      "name": "Assess medical history and risk factors",
+      "description": "- Discuss medical history with the client and review available records. Examples of history may include other diagnoses and medications.\n- Capture information related to the client’s occupation, socioeconomic risk factors (e.g. homelessness, imprisonment), recent interactions with individuals with confirmed TB and other health-related risk factors for TB, such as: – diabetes; – disorders due to alcohol use; – HIV; – smoking; – undernutrition; – disorders due to drug use; – silica exposure, silicosis; – viral hepatitis; – other clinical risk factors, for example, treatment with anti-tumour necrosis factor α3 (TNFα3), dialysis, organ or haematological transplantation. (systematic screening for tuberculosis disease) (31): • 2.4 Identifying and prioritizing risk groups – Framework for collaborative action on tuberculosis and comorbidities (38): • Table 2: Health-related risk factors and TB comorbidities, with related interventions recommended in current WHO guidelines.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.B3.DE.1",
+        "TB.Comm.DE.1",
+        "TB.Comm.DE.112",
+        "TB.Comm.DE.118",
+        "TB.Comm.DE.119",
+        "TB.Comm.DE.120",
+        "TB.Comm.DE.121",
+        "TB.Comm.DE.125",
+        "TB.Comm.DE.126",
+        "TB.Comm.DE.16",
+        "TB.Comm.DE.2",
+        "TB.Comm.DE.23",
+        "TB.Comm.DE.3",
+        "TB.Comm.DE.4",
+        "TB.Comm.DE.42",
+        "TB.Comm.DE.43",
+        "TB.Comm.DE.45",
+        "TB.Comm.DE.46",
+        "TB.Comm.DE.47",
+        "TB.Comm.DE.48",
+        "TB.Comm.DE.5",
+        "TB.Comm.DE.6",
+        "TB.Comm.DE.7",
+        "TB.Comm.DE.8",
+        "TB.Comm.DE.9"
+      ],
+      "requirements": [
+        "TB.FXNREQ.023"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "3"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0sm4xlp",
+      "activityId": "TB.B4",
+      "name": "Determine the screening algorithm",
+      "description": "- The health worker chooses a screening algorithm based on: – the specific objectives of screening; – the accuracy and yield of the screening and diagnostic tests; – the risk group; – TB prevalence in the risk group; – the costs, availability and feasibility of different screening methods; – the ability to engage the person to be screened.\n- Decision logic: TB.B4.DT. (systematic screening for tuberculosis disease) (31): • 3.2 Algorithms for screening.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.B4.DE.1"
+      ],
+      "requirements": [
+        "TB.FXNREQ.024"
+      ],
+      "decisionTables": [
+        "TB.B4.DT"
+      ],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "4"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0i4xxkr",
+      "activityId": "TB.B5",
+      "name": "Perform the TB screening",
+      "description": "- The health worker performs a TB screening according to the screening algorithm selected.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.B5.DE.1",
+        "TB.Comm.DE.101",
+        "TB.Comm.DE.130",
+        "TB.Comm.DE.57",
+        "TB.Comm.DE.68",
+        "TB.Comm.DE.71",
+        "TB.Comm.DE.72",
+        "TB.Comm.DE.73",
+        "TB.Comm.DE.86",
+        "TB.Comm.DE.87",
+        "TB.Comm.DE.88"
+      ],
+      "requirements": [
+        "TB.FXNREQ.025"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "5"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_0rbyr6x",
+      "activityId": "TB.B6",
+      "name": "Is referral needed?",
+      "description": "- When at least one method part of the screening algorithm is not available in the location (due to lack of skills or tools), a referral is needed to complete the screening activity.\n- A referral can also be issued when risk factors requiring close clinical management are identified to ensure that the patient receives the care they need.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "6"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1r153he",
+      "activityId": "TB.B7",
+      "name": "Evaluate the screening results",
+      "description": "- Once the results of the screening evaluations or the test part of the screening algorithm are available, the health worker can interpret them and decide what could be the next actions to take: refer for diagnostic evaluation or assess for TPT.\n- Decision logic: TB.B7.DT. (systematic screening for tuberculosis disease) (31): • Annex 1 Screening algorithms for the general population and high- risk groups (not including people living with HIV) • Annex 3 Screening algorithms for adults and adolescents living with HIV • Annex 5 Screening algorithms for children.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.B7.DE.1",
+        "TB.B7.DE.5"
+      ],
+      "requirements": [],
+      "decisionTables": [
+        "TB.B7.DT"
+      ],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "7"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_05jvrwa",
+      "activityId": "TB.B8",
+      "name": "Screen result",
+      "description": "- A positive or abnormal result in screening tests is an indication for referral towards a diagnostic evaluation.\n- Although systematic testing and treatment is not specifically recommended in some cases (e.g. people with diabetes, people who engage in harmful use of alcohol, tobacco smokers and underweight people), these populations may still be considered for TPT on a case-by-case basis to reduce the risk of TB, especially if they have a heightened likelihood of unfavourable outcome should the disease develop or if the person has multiple risk factors for TB.\n- In case of a negative screen result, the process will continue with “TPT” process, according to the existing national policy.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "8"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0ns7mpw",
+      "activityId": "TB.B9",
+      "name": "Offer other clinical and support services",
+      "description": "- The health worker might offer other relevant clinical and support services to the client if the client does not give their consent for proceeding with TB screening. Health-care facility",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "9"
+      }
+    }
+  ],
+  "unmatched": [],
+  "unannotated": []
+}

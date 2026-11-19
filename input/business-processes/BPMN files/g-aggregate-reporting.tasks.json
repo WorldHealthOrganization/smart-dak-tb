@@ -1,0 +1,202 @@
+{
+  "$schema": "dak-task-annotations/v1",
+  "bpmn": "g-aggregate-reporting.bpmn",
+  "process": "TB.G",
+  "document": "9789240086616-eng",
+  "heading": "AGGREGATE REPORTING AND DATA USE BUSINESS PROCESS NOTES AND ANNOTATIONS",
+  "tasks": [
+    {
+      "bpmnTask": "Activity_0umggg5",
+      "activityId": "TB.G1",
+      "name": "Check data quality",
+      "description": "- Health-care facility data are reviewed for accuracy, validity and completeness.\n- This can be supported through automated checks in a digital system. • WHO consolidated guidance on tuberculosis data generation and use – Module 1: tuberculosis surveillance (15).",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "1"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_038znc2",
+      "activityId": "TB.G2",
+      "name": "Were data quality issues found?",
+      "description": "",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "2"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0frd3ul",
+      "activityId": "TB.G3",
+      "name": "Correct fixable data quality issues",
+      "description": "- Where possible, inaccurate, invalid or incomplete data should be checked against source records and corrected according to the national standard operating procedures.\n- It is also possible for the same episode of TB disease in a given individual to be recorded multiple times in the system. Any duplicate records of the same episode of TB must be removed (de-notify duplicate case[s]) to avoid overreporting. Depending on local policy, this step might need to be delegated to a person with the appropriate data access rights.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "3"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0324pcf",
+      "activityId": "TB.G4",
+      "name": "Generate aggregate reports",
+      "description": "- The health worker generates aggregate reports of predefined indicators aligned with national monitoring and evaluation guidelines.\n- This can be automated and done digitally.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [
+        "TB.FXNREQ.052"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "4"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1q1gsv8",
+      "activityId": "TB.G5",
+      "name": "Check the aggregate reports",
+      "description": "- Check for any potential remaining data quality issues such as implausible values or outputs.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "5"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_07mmjqz",
+      "activityId": "TB.G6",
+      "name": "Were issues found in the reports?",
+      "description": "- If so, return to step 3.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "6"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0o62r7q",
+      "activityId": "TB.G7",
+      "name": "Analyse and interpret the reports",
+      "description": "- The analyses and interpretation of the reports should identify opportunities to improve the performance of the health-care facility, such as tracing missing data or contacting patients who have not attended a clinic.\n- Data analysis and interpretation can be done regularly and should not be limited to the reporting schedule.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [
+        "TB.FXNREQ.053"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "7"
+      }
+    },
+    {
+      "bpmnTask": "Activity_14qob5x",
+      "activityId": "TB.G8",
+      "name": "Take actions based on the findings",
+      "description": "- Findings from the reports can inform corrective actions.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "8"
+      }
+    },
+    {
+      "bpmnTask": "Activity_17kmh1t",
+      "activityId": "TB.G9",
+      "name": "Submit data electronically",
+      "description": "- This can be automated in digital systems.\n- Depending on the local policies and system design, an active “submission” may not be needed and the district-level, provincial-level and national- level ministry of health should be able to access data directly for reporting purposes.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "9"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1xftdka",
+      "activityId": "TB.G10",
+      "name": "Review the submitted data",
+      "description": "- The district health office reviews the quality of the submitted data.",
+      "personas": [
+        "District health information officer"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "10"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1lgbuut",
+      "activityId": "TB.G11",
+      "name": "Provide feedback to the facility",
+      "description": "- The focal person at the district level will provide feedback to the facility. If data quality issues are identified, the facility may be required to restart the process and resubmit the reports.",
+      "personas": [
+        "District health information officer"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "11"
+      }
+    }
+  ],
+  "unmatched": [],
+  "unannotated": []
+}

@@ -1,0 +1,305 @@
+{
+  "$schema": "dak-task-annotations/v1",
+  "bpmn": "e-tpt.bpmn",
+  "process": "TB.E",
+  "document": "9789240086616-eng",
+  "heading": "TPT BUSINESS PROCESS NOTES AND ANNOTATIONS",
+  "tasks": [
+    {
+      "bpmnTask": "Activity_0we1sjn",
+      "activityId": "TB.E1",
+      "name": "Offer TB prevention counselling",
+      "description": "- Provide information on TB infection, the rationale for TPT and the benefits from completing the course to the individual, the household and the wider community.\n- Mention possible adverse effects and the likelihood of their manifestation.\n- Educate the client regarding the risk of not taking the TPT.\n- Inform the client about the TPT short regimens that can be completed in 4–12 weeks, unlike the treatment of TB disease, which lasts 6 months or longer. • TPT initiation and pre-TPT baseline assessment • Key implementation steps in contact investigation • Messages for the community.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.E1.DE.1"
+      ],
+      "requirements": [
+        "TB.FXNREQ.037"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "1"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0e2b7lq",
+      "activityId": "TB.E2",
+      "name": "Make an informed decision",
+      "description": "- Explicit consent is generally required for TPT since the subject does not pose an immediate risk to others and the potential benefits are highly context-specific and may be outweighed by risk of harm for some individuals. The provider usually has a professional obligation to do this. Whether this is documented in writing or not depends on local practice. Informed consent requires effective and adequate communication of the possible uncertainties, as well as prospects of risk reduction (often uncertain due to risk of reinfection).\n- Consent given by the client includes agreement to follow various tests as part of TPT evaluation and to follow treatment if indicated (signed or witnessed consent if the patient is illiterate, or signed or witnessed consent from a child’s parent or legal guardian).\n- Patients who refuse to consent should be counselled about the risks to both themselves and the community.\n- It is important that an informed decision to not take treatment by a person offered TPT is respected; people should not feel coerced to take treatment. • Chapter 9. Ethics and TB preventive treatment.",
+      "personas": [
+        "Client"
+      ],
+      "dataElements": [
+        "TB.E2.DE.1"
+      ],
+      "requirements": [
+        "TB.FXNREQ.038"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "2"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0atwwkz",
+      "activityId": "TB.E3",
+      "name": "TB infection testing",
+      "description": "- Just as excluding TB disease is a critical step before starting TPT, confirming TB infection before starting TPT may increase the certainty that individuals targeted for TPT would benefit from it. – 3.1 Determine whether TB infection testing is relevant The decision on whether to test for TB infection before TPT is influenced by the expected prevalence of TB infection in the at-risk population, risk of progression to TB disease and the risk of harms due to unnecessary TPT. • Decision logic: TB.E3.1.DT. – 3.2 Is TB infection testing relevant? Some risk groups, such as PLHIV who are on antiretroviral therapy (ART), benefit from TPT regardless of whether they test positive or negative for TB infection. Similarly, children under 5 years who are contacts of a patient with bacteriologically confirmed TB have a high risk of TB and would benefit from TPT regardless of the test result. Therefore, TB infection testing is not relevant in such cases and the recommendation is to consider TPT. – 3.3 Test for TB infection A tuberculin skin test (TST), Mycobacterium tuberculosis antigen-based skin tests (TBSTs) or interferon-gamma release assay (IGRA) can be used to test for TB infection. – 3.4 Interpret the TB infection test result Once the test result is available, a health worker with the appropriate level of knowledge will interpret it. Older contacts and other risk groups who test positive are likely to benefit more than those with a negative test. – WHO consolidated guidelines on tuberculosis – Module 1: prevention (tuberculosis preventive treatment) (18): • 1.3 Testing for latent tuberculosis infection – WHO consolidated guidelines on tuberculosis – Module 3: diagnosis (tests for tuberculosis infection) (22) • 4. Testing for TB infection – WHO operational handbook on tuberculosis – Module 3: diagnosis (tests for tuberculosis infection) (33).",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "3"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0ou6oio",
+      "activityId": "TB.E4",
+      "name": "TPT eligibility evaluation",
+      "description": "- Once TB disease is ruled out, and the decision to consider TPT is made, baseline assessment to determine the eligibility of an individual for TPT should be undertaken. The baseline assessment includes personal and medication history and investigations as per national guidelines. – 4.1 Elicit personal history information Information relevant for TPT initiation and continuation should be asked, such as allergy to TB drugs, previous intake of TPT, alcohol use, smoking, concurrent medication, contacts with drug-resistant TB and potential contraindications to TPT. – 4.2 Assess medication history Elicit medication history to guide the choice of TPT regimen. Certain drug classes, for example, antiretroviral (ARV) drugs, opioids and antimalarials, often affect TPT. – 4.3 Assess social and financial situation The social and financial situation of the family should be assessed and the support required to overcome the barriers for TPT completion should be identified. – 4.4 Assess the need for liver function test (LFT) There is insufficient evidence to support mandatory or routine LFT at baseline, and perhaps the benefit of TPT without LFT would likely outweigh the harms, particularly with a less hepatotoxic regimen. Where feasible, baseline testing is strongly encouraged for individuals having risk factors – such as history of liver disease, regular use of alcohol, chronic liver disease, HIV infection, age more than 35 years and pregnancy or immediate postpartum period (within 3 months of delivery). In individuals having abnormal baseline LFT results, sound clinical judgement is required to determine if the benefit of TPT outweighs the risk of adverse events. These individuals should be tested routinely at subsequent visits. – 4.5 Order an LFT test Collect a blood sample and order an LFT test from the laboratory if the decision is to perform an LFT. – 4.6 Interpret the LFT test results Once the test result is available, a health worker with the appropriate level of knowledge will interpret it. – 4.7 Determine TPT eligibility Based on the information gathered in the previous steps, a decision will be made on whether the TPT benefits outweigh the risks. • Decision logic: TB.E4.7.DT. • TPT initiation and pre-TPT baseline assessment • Provision of TPT for special populations.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "4"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_1yqkimg",
+      "activityId": "TB.E5",
+      "name": "Is the client eligible for TPT?",
+      "description": "- If the decision in step 4 is that TPT is beneficial, the health worker will proceed with discussing the treatment regimen.\n- The health worker might offer other relevant clinical and support services if the client is not eligible for TPT.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "5"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0lfg3pt",
+      "activityId": "TB.E6",
+      "name": "Determine the TPT regimen",
+      "description": "- When choosing a regimen, the caregiver and the person taking the treatment should consider the circumstances under which TPT would be given to increase the likelihood of it being completed. The choice may also depend on the availability of resources, fixed-dose combinations, child-friendly formulations, concomitant medication (such as ARV drugs, opioid substitution therapy, oral contraception), as well as acceptability to recipients in the country context.\n- Decision logic: TB.E6.DT. – WHO consolidated guidelines on tuberculosis – Module 1: prevention (tuberculosis preventive treatment) (18): • 1.4 Tuberculosis preventive treatment options • Chapter 5. TB preventive treatment.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.Comm.DE.3",
+        "TB.Comm.DE.4",
+        "TB.E6.DE.1"
+      ],
+      "requirements": [],
+      "decisionTables": [
+        "TB.E6.DT"
+      ],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "6"
+      }
+    },
+    {
+      "bpmnTask": "Gateway_1sca54a",
+      "activityId": "TB.E7",
+      "name": "Is referral needed?",
+      "description": "- In some cases, the client might prefer to start TPT in another health-care facility, for example, closer to their house. In those cases, the client might need a referral.\n- If the treatment medication is not available at the health-care facility, the client will be referred to another clinic or to the pharmacy to get the necessary medication.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "7"
+      }
+    },
+    {
+      "bpmnTask": "Activity_03syjzr",
+      "activityId": "TB.E8",
+      "name": "Determine the dosages of medicines for TPT",
+      "description": "- The health worker determines the dosages of medicines for TPT based on the client’s age and weight.\n- Decision logic: TB.E8.DT. – WHO consolidated guidelines on tuberculosis – Module 1: prevention (tuberculosis preventive treatment) (18): • Table 3. Recommended dosages of medicines for TB preventive • Recommended dosages of TPT medication.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [
+        "TB.E8.DT"
+      ],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "8"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0swo4nm",
+      "activityId": "TB.E9",
+      "name": "Initiate TPT and develop an adherence plan",
+      "description": "- TPT is initiated if the client (parent or legal guardian in case of children or adolescents) gives their consent.\n- An adherence plan is developed in collaboration with the client. Such a plan may include information on: – motivators for the person to want to be TB free; – using the person’s individual and family routines and their variations to identify the best time to take the medicines; and – taking medicines with food to reduce nausea and vomiting or at night 3–4 hours after dinner. • Chapter 7. Adherence to TB preventive treatment • Box 7.1: Example of an adherence plan.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.Comm.DE.136",
+        "TB.E9.DE.1",
+        "TB.E9.DE.2",
+        "TB.E9.DE.3",
+        "TB.E9.DE.9"
+      ],
+      "requirements": [
+        "TB.FXNREQ.042"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "9"
+      }
+    },
+    {
+      "bpmnTask": "Activity_06qm0h8",
+      "activityId": "TB.E10",
+      "name": "Perform the clinical assessment",
+      "description": "- Clinical assessment should focus on monitoring response to treatment, presence of adverse drug reactions and common symptoms associated with TB treatment and long-term antibiotic use, with the goal of supporting adherence.\n- Persistent fever, weight loss or recurrence of any of the classic symptoms of TB should prompt investigation for possible treatment failure, undetected resistance to one or more drugs in the current treatment regimen, or untreated comorbidities.\n- Overall, the occurrence of serious adverse events leading to death or requiring withdrawal of TPT is rare. However, it is critical to identify any sign of drug toxicity early on and manage it vigorously. Obtaining a detailed and accurate medical history (inclusive of medicines being taken and known past adverse drug reactions) and keeping up-to-date information at every contact with the person on TPT, can help identify persons who require close monitoring and the most appropriate course of action if an adverse event emerges.\n- National programmes are encouraged to use communication technology, including SMS and video-calls, for early reporting of adverse events and prompt action by health workers. A mechanism to record data on the occurrence and management of adverse events is advised. • Chapter 6. Safety, management of adverse reactions and other drug- related issues in TB preventive treatment.",
+      "personas": [
+        "Health-care facility / community / residential or occupational setting"
+      ],
+      "dataElements": [
+        "TB.Comm.DE.112",
+        "TB.Comm.DE.118",
+        "TB.Comm.DE.119",
+        "TB.Comm.DE.120",
+        "TB.Comm.DE.133",
+        "TB.Comm.DE.23",
+        "TB.Comm.DE.3",
+        "TB.Comm.DE.4"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "10"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1q8qefd",
+      "activityId": "TB.E11",
+      "name": "Assess adherence",
+      "description": "- Adherence to treatment is a complex behaviour that is influenced by many factors, such as personal motivation, beliefs about health, risks and benefits from treatment, comorbidities, competing demands that conflict with the taking of medicine, family environment, complexity of the drug regimen, drug toxicity, trust and relationship with the health provider. The health worker needs to reinforce supportive educational messages at each contact during treatment. • Chapter 7. Adherence to TB preventive treatment.",
+      "personas": [
+        "Health-care facility / community / residential or occupational setting"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "11"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0r29lau",
+      "activityId": "TB.E12",
+      "name": "Manage TPT interruptions",
+      "description": "- Any interruptions in treatment should be discussed with the person on treatment and their treatment supporter, and interventions to address problems in adherence should be instituted.",
+      "personas": [
+        "Health-care facility / community / residential or occupational setting"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "12"
+      }
+    },
+    {
+      "bpmnTask": "Activity_0y3t397",
+      "activityId": "TB.E13",
+      "name": "Schedule the follow-up visit",
+      "description": "- The next visit is scheduled depending on the treatment regimen, clinical condition and client’s availability. The visit could take place either at the health-care facility or in the community, or at the client’s location.",
+      "personas": [
+        "Health-care facility / community / residential or occupational setting"
+      ],
+      "dataElements": [],
+      "requirements": [
+        "TB.FXNREQ.043"
+      ],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "13"
+      }
+    },
+    {
+      "bpmnTask": "Activity_19x1k3k",
+      "activityId": "TB.E14",
+      "name": "Report TPT completion",
+      "description": "- It is important to monitor TPT completion both for individual care and programme management.\n- TPT may be considered completed when an individual takes 80% or more of the prescribed number of doses of treatment within 133% of the scheduled duration of the respective TPT regimen and remains well or asymptomatic during the entire period. • Chapter 8. Monitoring and evaluation.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [
+        "TB.E14.DE.1"
+      ],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "14"
+      }
+    },
+    {
+      "bpmnTask": "Activity_1yhyae9",
+      "activityId": "TB.E15",
+      "name": "Offer other clinical and support services",
+      "description": "- The health worker might offer other relevant clinical and support services to the client if the TPT is not accepted, the client is not eligible or TPT is not recommended.",
+      "personas": [
+        "Health worker"
+      ],
+      "dataElements": [],
+      "requirements": [],
+      "decisionTables": [],
+      "matchedBy": "step-number",
+      "source": {
+        "document": "9789240086616-eng",
+        "item": "15"
+      }
+    }
+  ],
+  "unmatched": [],
+  "unannotated": [
+    "Activity_0zjvnsp"
+  ]
+}
